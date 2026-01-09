@@ -1,0 +1,17 @@
+{
+	chapter.4318665C5B015F8C.title: "Chaper 1: Wooden Age"
+	quest.0C388E937B11562F.quest_desc: ["Use this in a millstone to unlock more resources"]
+	quest.1328C0761497EF08.quest_desc: ["A step into duping gravel! "]
+	quest.1B4D75E1CB338B57.quest_desc: [
+		"Mill some coarse dirt to duplicate dirt."
+		"Now you don't have to worry about running out of dirt!"
+	]
+	quest.337556D5EA7EFC1D.quest_desc: ["The only other thing you can get right at the start, don't run out of saplings"]
+	quest.366B417986B1E5DE.title: "Various Seeds"
+	quest.3D79289573C002FA.title: "Welcome to the next step"
+	quest.3E012F13C26E9BB5.quest_desc: ["Any pebble can be turned into the block form with 4 of them"]
+	quest.3E012F13C26E9BB5.title: "Stone Blocks"
+	quest.59E8207DAC45BA87.quest_desc: ["The half of whats needed for early create"]
+	quest.5C6E61972C16E3FA.title: "Smelting"
+	quest.62806B364112A40A.quest_desc: ["&lShift&r + &lRight Click&r the ground to gather pebbles"]
+}

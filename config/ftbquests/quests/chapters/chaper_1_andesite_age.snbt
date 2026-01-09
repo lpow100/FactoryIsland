@@ -1,0 +1,368 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chaper_1_andesite_age"
+	group: ""
+	id: "4318665C5B015F8C"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "62806B364112A40A"
+			rewards: [
+				{
+					count: 8
+					id: "079DB0A48D2F16E6"
+					item: {
+						count: 1
+						id: "havenpebbles:stone_pebble"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "37B5DA3A6CC9FE8C"
+					item: {
+						count: 1
+						id: "havenpebbles:andesite_pebble"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "7535F0E3B7389126"
+					item: {
+						count: 1
+						id: "havenpebbles:tuff_pebble"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6E5A4F655AD8065D"
+				item: { count: 1, id: "havenpebbles:stone_pebble" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["62806B364112A40A"]
+			id: "3E012F13C26E9BB5"
+			rewards: [{
+				count: 2
+				id: "4EACA5984382872B"
+				item: {
+					count: 1
+					id: "minecraft:cobblestone"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0FF4CB2BFD466453"
+				item: { count: 1, id: "minecraft:cobblestone" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3E012F13C26E9BB5"
+				"337556D5EA7EFC1D"
+			]
+			id: "5C6E61972C16E3FA"
+			rewards: [{
+				count: 4
+				id: "43FC50968A0A3C37"
+				item: {
+					count: 1
+					id: "minecraft:charcoal"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0B6D1409BEE55C49"
+					item: { count: 1, id: "minecraft:furnace" }
+					type: "item"
+				}
+				{
+					id: "579680B8B19DE1AF"
+					item: { count: 1, id: "minecraft:charcoal" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			id: "337556D5EA7EFC1D"
+			rewards: [{
+				id: "628EB2DC0ABC70D4"
+				item: {
+					count: 1
+					id: "minecraft:oak_sapling"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "25C84157C99C8D4D"
+				item: { count: 1, id: "minecraft:oak_log" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"5C6E61972C16E3FA"
+				"59E8207DAC45BA87"
+			]
+			id: "6AF6228602A2DCED"
+			rewards: [{
+				count: 4
+				id: "1B45ABED8AE7418A"
+				item: {
+					count: 1
+					id: "kubejs:rough_andesite_alloy"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0B5491941088E564"
+				item: { count: 1, id: "kubejs:rough_andesite_alloy" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["62806B364112A40A"]
+			id: "59E8207DAC45BA87"
+			rewards: [{
+				count: 2
+				id: "5F22589F8E503CFD"
+				item: {
+					count: 1
+					id: "minecraft:andesite"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "454C0A62E830A356"
+				item: { count: 1, id: "minecraft:andesite" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6AF6228602A2DCED"]
+			id: "1AFFDD2F7A2EFB29"
+			rewards: [{
+				count: 2
+				id: "5B59CBBC0CDF899A"
+				item: {
+					count: 1
+					id: "minecraft:tuff"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7F5805EE9F6C77D8"
+					item: { count: 1, id: "create:millstone" }
+					type: "item"
+				}
+				{
+					id: "46CEC81294C46E19"
+					item: { count: 1, id: "create:hand_crank" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["62806B364112A40A"]
+			id: "0C388E937B11562F"
+			rewards: [{
+				count: 2
+				id: "69062895BB1D8FC4"
+				item: {
+					count: 1
+					id: "minecraft:tuff"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5CDE0714A846BB32"
+				item: { count: 1, id: "minecraft:tuff" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1AFFDD2F7A2EFB29"
+				"0C388E937B11562F"
+			]
+			id: "3D79289573C002FA"
+			rewards: [{
+				count: 2
+				id: "5A6B1D0AADB84E94"
+				item: {
+					count: 1
+					id: "create:crushed_raw_iron"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.25d
+			tasks: [
+				{
+					id: "5D803D96748851FF"
+					item: { count: 1, id: "create:crushed_raw_iron" }
+					type: "item"
+				}
+				{
+					id: "0A7C046A74D04B42"
+					item: { count: 1, id: "create:crushed_raw_copper" }
+					type: "item"
+				}
+				{
+					id: "32D689AC1A0D361F"
+					item: { count: 1, id: "minecraft:coal" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -9.375d
+		}
+		{
+			dependencies: ["62806B364112A40A"]
+			id: "075B0079135FF4BF"
+			rewards: [{
+				count: 2
+				id: "1A6EC55B4CC54F89"
+				item: {
+					count: 1
+					id: "minecraft:pointed_dripstone"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5DE1FDAA540C2CFE"
+				item: { count: 1, id: "minecraft:dripstone_block" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"1AFFDD2F7A2EFB29"
+				"075B0079135FF4BF"
+			]
+			id: "748B179052B67D51"
+			rewards: [{
+				id: "1811A50AADA7853C"
+				item: {
+					count: 1
+					id: "minecraft:clay"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "76A9D7F65E445FA1"
+				item: { count: 1, id: "minecraft:clay_ball" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1AFFDD2F7A2EFB29"]
+			id: "1328C0761497EF08"
+			rewards: [{
+				count: 2
+				id: "6C5D2253F585F915"
+				item: {
+					count: 1
+					id: "minecraft:gravel"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "763D3C280A09FF72"
+				item: { count: 1, id: "minecraft:gravel" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"1328C0761497EF08"
+				"74F82682E5633A55"
+			]
+			id: "1B4D75E1CB338B57"
+			rewards: [{
+				count: 2
+				id: "5B1FB970CDA76BF0"
+				item: {
+					count: 1
+					id: "minecraft:coarse_dirt"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "01B95D58758CE453"
+					item: { count: 1, id: "minecraft:coarse_dirt" }
+					type: "item"
+				}
+				{
+					id: "7091B0FF180F688F"
+					item: { count: 1, id: "minecraft:dirt" }
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			id: "74F82682E5633A55"
+			tasks: [{
+				id: "349AA74711DA2B0F"
+				item: { count: 1, id: "minecraft:dirt" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"1AFFDD2F7A2EFB29"
+				"74F82682E5633A55"
+			]
+			id: "366B417986B1E5DE"
+			tasks: [
+				{
+					id: "0D66AB7DDC7BE0B8"
+					item: { count: 1, id: "minecraft:wheat_seeds" }
+					type: "item"
+				}
+				{
+					id: "1E31F1EDEBD2CE40"
+					item: { count: 1, id: "supplementaries:flax_seeds" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -5.0d
+		}
+	]
+}
