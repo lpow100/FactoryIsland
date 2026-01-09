@@ -3,6 +3,9 @@
 	default_quest_shape: ""
 	filename: "chaper_1_andesite_age"
 	group: ""
+	icon: {
+		id: "minecraft:oak_log"
+	}
 	id: "4318665C5B015F8C"
 	order_index: 0
 	quest_links: [ ]
@@ -39,8 +42,8 @@
 				}
 			]
 			tasks: [{
-				id: "6E5A4F655AD8065D"
-				item: { count: 1, id: "havenpebbles:stone_pebble" }
+				id: "56D48918F383F0FB"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(kubejs:pebble)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 3.5d
@@ -94,7 +97,7 @@
 				}
 			]
 			x: 1.5d
-			y: -1.5d
+			y: -1.0d
 		}
 		{
 			id: "337556D5EA7EFC1D"
@@ -135,7 +138,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: -2.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["62806B364112A40A"]
@@ -181,7 +184,7 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
+			x: 1.0d
 			y: -3.5d
 		}
 		{
@@ -202,7 +205,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 0.0d
+			y: -2.5d
 		}
 		{
 			dependencies: [
@@ -239,7 +242,7 @@
 				}
 			]
 			x: 2.5d
-			y: -9.375d
+			y: -4.375d
 		}
 		{
 			dependencies: ["62806B364112A40A"]
@@ -258,8 +261,8 @@
 				item: { count: 1, id: "minecraft:dripstone_block" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: -0.5d
+			x: 3.5d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -281,7 +284,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -4.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["1AFFDD2F7A2EFB29"]
@@ -301,7 +304,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -4.0d
+			y: -4.5d
 		}
 		{
 			dependencies: [
@@ -330,18 +333,27 @@
 					type: "item"
 				}
 			]
-			x: -1.0d
-			y: -5.0d
+			x: -1.5d
+			y: -5.5d
 		}
 		{
 			id: "74F82682E5633A55"
+			rewards: [{
+				count: 2
+				id: "6441FEFFB41CFB35"
+				item: {
+					count: 1
+					id: "minecraft:dirt"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "349AA74711DA2B0F"
 				item: { count: 1, id: "minecraft:dirt" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: 1.0d
+			x: -2.5d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -349,6 +361,26 @@
 				"74F82682E5633A55"
 			]
 			id: "366B417986B1E5DE"
+			rewards: [
+				{
+					count: 2
+					id: "4890180816BA22FA"
+					item: {
+						count: 1
+						id: "minecraft:wheat_seeds"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "293F6D067647A1AB"
+					item: {
+						count: 1
+						id: "supplementaries:flax_seeds"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "0D66AB7DDC7BE0B8"
@@ -361,8 +393,19 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
-			y: -5.0d
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["366B417986B1E5DE"]
+			id: "74D8AF7AA127A459"
+			tasks: [{
+				id: "0FCA189E507DD5F2"
+				item: { count: 1, id: "minecraft:string" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
 		}
 	]
 }

@@ -1,0 +1,11 @@
+[
+  {"version":2},
+  {"ingredient":{"id":"ironfurnaces:copper_furnace"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ironfurnaces:iron_furnace"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ironfurnaces:gold_furnace"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ironfurnaces:diamond_furnace"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ironfurnaces:emerald_furnace"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ironfurnaces:crystal_furnace"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ironfurnaces:obsidian_furnace"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ironfurnaces:netherite_furnace"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]
