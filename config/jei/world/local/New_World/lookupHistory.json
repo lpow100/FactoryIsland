@@ -1,6 +1,11 @@
 [
   {"version":1},
+  {"ingredient":{"id":"ironfurnaces:gold_furnace"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create_dragons_plus:blaze_upgrade_smithing_template"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:netherrack"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"minecraft:magma_block"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"kubejs:superheated_pebble"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"havenpebbles:stone_pebble"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"ironfurnaces:rainbow_coal"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"ironfurnaces:rainbow_core"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"ironfurnaces:rainbow_plating"},"type":"item_stack","bookmarkType":"INGREDIENT"},
@@ -12,7 +17,6 @@
   {"ingredient":{"id":"ironfurnaces:obsidian_furnace"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"ironfurnaces:emerald_furnace"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"ironfurnaces:diamond_furnace"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"ironfurnaces:gold_furnace"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"ironfurnaces:silver_furnace"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"ironfurnaces:copper_furnace"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"ironfurnaces:iron_furnace"},"type":"item_stack","bookmarkType":"INGREDIENT"},
@@ -43,6 +47,5 @@
   {"ingredient":{"id":"havenpebbles:granite_pebble"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"havenpebbles:deepslate_pebble"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"havenpebbles:basalt_pebble"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"havenpebbles:netherrack_pebble"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"havenpebbles:stone_pebble"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+  {"ingredient":{"id":"havenpebbles:netherrack_pebble"},"type":"item_stack","bookmarkType":"INGREDIENT"}
 ]

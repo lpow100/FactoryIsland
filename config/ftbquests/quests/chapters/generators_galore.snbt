@@ -19,10 +19,11 @@
 			icon_scale: 1.1d
 			id: "5D68891F47E07B25"
 			rewards: [{
+				count: 3
 				id: "1FF37D6F1CC6D7F7"
 				item: {
 					count: 1
-					id: "minecraft:coal_block"
+					id: "minecraft:iron_ingot"
 				}
 				type: "item"
 			}]
@@ -37,7 +38,20 @@
 			y: -0.5d
 		}
 		{
+			dependencies: [
+				"3D79289573C002FA"
+				"415F2F950601AC2E"
+			]
 			id: "2C07DC42E0BBF640"
+			rewards: [{
+				count: 3
+				id: "595DBFEBF7BCA6C0"
+				item: {
+					count: 1
+					id: "minecraft:copper_ingot"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1BA4EED35C66230C"
 				item: { count: 1, id: "ironfurnaces:copper_furnace" }
@@ -45,6 +59,111 @@
 			}]
 			x: -3.0d
 			y: 1.0d
+		}
+		{
+			dependencies: ["5D68891F47E07B25"]
+			id: "245E57FA27942CF3"
+			rewards: [{
+				count: 3
+				id: "5E6EBD7F20E93C61"
+				item: {
+					count: 1
+					id: "minecraft:gold_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "69D5A5FF76290D72"
+				item: { count: 1, id: "ironfurnaces:gold_furnace" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5D68891F47E07B25"]
+			id: "6C7BFE614190C676"
+			tasks: [{
+				id: "4097B0D1686A424A"
+				item: { count: 1, id: "ironfurnaces:upgrade_gold" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2C07DC42E0BBF640"]
+			id: "5E9E58DB124B5E97"
+			tasks: [{
+				id: "01D2BE6785A4581C"
+				item: { count: 1, id: "ironfurnaces:upgrade_iron2" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			id: "415F2F950601AC2E"
+			rewards: [{
+				count: 5
+				id: "11E783A194C27461"
+				item: {
+					count: 1
+					id: "minecraft:coal"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7C16511A09FE72BA"
+				item: { count: 1, id: "minecraft:furnace" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["415F2F950601AC2E"]
+			id: "01E289E363BF76AD"
+			tasks: [{
+				id: "7B6AF1073D344A2B"
+				item: { count: 1, id: "ironfurnaces:upgrade_iron" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["415F2F950601AC2E"]
+			id: "06269C06474B0441"
+			tasks: [{
+				id: "4C11915B5E6D728A"
+				item: { count: 1, id: "ironfurnaces:upgrade_copper" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["245E57FA27942CF3"]
+			id: "695AA198E13654CF"
+			tasks: [{
+				id: "18D55AD9909C9A3F"
+				item: { count: 1, id: "ironfurnaces:diamond_furnace" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["245E57FA27942CF3"]
+			id: "612F085A47947930"
+			tasks: [{
+				id: "4AA7B4C09F8CC4A6"
+				item: { count: 1, id: "ironfurnaces:upgrade_diamond" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
 		}
 	]
 }

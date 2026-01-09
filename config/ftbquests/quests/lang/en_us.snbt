@@ -34,11 +34,14 @@
 	quest.59E8207DAC45BA87.quest_desc: ["The half of whats needed for early create"]
 	quest.5C6E61972C16E3FA.quest_desc: ["With this charcoal we can smelt more and dip our toes into create"]
 	quest.5C6E61972C16E3FA.title: "Smelting"
+	quest.5D68891F47E07B25.quest_desc: ["Each level of furnace can smelt faster and has multiple upgrades you can craft"]
+	quest.5D68891F47E07B25.quest_subtitle: "Welcome to better furnaces!"
 	quest.5D68891F47E07B25.title: "Iron Furnaces"
 	quest.5DCFD2F28036FEC7.quest_desc: ["Ahhh, your first iron. Now we can truly crack open the create mod"]
 	quest.5DCFD2F28036FEC7.title: "The Andesite Age"
 	quest.62806B364112A40A.quest_desc: ["&lShift&r + &lRight Click&r the ground to gather pebbles"]
 	quest.62806B364112A40A.quest_subtitle: "Gather pebbles from the ground, fill 2x2 with a type of pebbles for a block"
+	quest.695AA198E13654CF.quest_subtitle: "Now we are getting expensive!"
 	quest.6AF6228602A2DCED.quest_subtitle: "Your first taste of create"
 	quest.6FA106C24A8C23F8.quest_subtitle: "Blasting pebbles allows you to superheat them"
 	quest.74D8AF7AA127A459.quest_desc: [""]
