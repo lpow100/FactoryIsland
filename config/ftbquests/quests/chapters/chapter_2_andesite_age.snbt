@@ -1,0 +1,337 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_2_andesite_age"
+	group: ""
+	icon: {
+		id: "create:andesite_alloy"
+	}
+	id: "203F08CB632C970F"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3D79289573C002FA"]
+			hide_dependency_lines: true
+			id: "5DCFD2F28036FEC7"
+			rewards: [{
+				count: 2
+				id: "6F953B85CDC3AAB0"
+				item: {
+					count: 1
+					id: "create:andesite_alloy"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [
+				{
+					id: "225AE9F710605A5F"
+					item: { count: 1, id: "minecraft:iron_ingot" }
+					type: "item"
+				}
+				{
+					id: "60F8026E78FCCC4E"
+					item: { count: 1, id: "create:andesite_alloy" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5DCFD2F28036FEC7"]
+			id: "57AFA92AD95F9B63"
+			rewards: [{
+				id: "70A4D912CAB29F51"
+				item: {
+					count: 1
+					id: "minecraft:iron_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4DF32DC5B42A70F9"
+					item: { count: 1, id: "minecraft:iron_block" }
+					type: "item"
+				}
+				{
+					id: "57DDA1BF20B75761"
+					item: { count: 1, id: "create:mechanical_press" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["57AFA92AD95F9B63"]
+			id: "28DB3E9125D2489D"
+			rewards: [{
+				count: 2
+				id: "6A1D82009728F010"
+				item: {
+					count: 1
+					id: "minecraft:iron_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "522F2685A1110550"
+				item: { count: 1, id: "create:iron_sheet" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"28DB3E9125D2489D"
+				"398D4AEF0498D041"
+			]
+			id: "0608774F4DD8A98D"
+			rewards: [{
+				count: 3
+				id: "3D69381657A6FD39"
+				item: {
+					count: 1
+					id: "minecraft:gravel"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "12C6690DB42CBA7A"
+					item: { count: 1, id: "create:encased_fan" }
+					type: "item"
+				}
+				{
+					id: "16DE2BB77890B9A6"
+					item: { count: 1, id: "minecraft:water_bucket" }
+					type: "item"
+				}
+				{
+					id: "7309FC5FE518B99E"
+					item: { count: 1, id: "minecraft:campfire" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["28DB3E9125D2489D"]
+			id: "00A6B70FE4091AF7"
+			rewards: [{
+				count: 4
+				id: "2E7B123281F03A38"
+				item: {
+					count: 1
+					id: "minecraft:iron_nugget"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5769F33D8FBCCFDB"
+					item: { count: 1, id: "create:mechanical_mixer" }
+					type: "item"
+				}
+				{
+					id: "0728A8DE5A823D8C"
+					item: { count: 1, id: "create:basin" }
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5DCFD2F28036FEC7"]
+			id: "78110B0637367E46"
+			rewards: [{
+				count: 2
+				id: "75BF2157F13C63FD"
+				item: {
+					count: 1
+					id: "havenpebbles:stone_pebble"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3287D80C0F36550E"
+					item: { count: 1, id: "minecraft:blast_furnace" }
+					type: "item"
+				}
+				{
+					id: "001BE9D4A6A70FB1"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(kubejs:pebble)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["78110B0637367E46"]
+			id: "6FA106C24A8C23F8"
+			rewards: [{
+				id: "6D76D64C5E815706"
+				item: {
+					count: 1
+					id: "kubejs:superheated_pebble"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "08E0AFBF4CFFBE5D"
+				item: { count: 1, id: "kubejs:superheated_pebble" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"4D38136BD51E9DBE"
+				"00A6B70FE4091AF7"
+			]
+			id: "0152DF3081589EA1"
+			rewards: [{
+				count: 2
+				id: "6E5816B3D0F6249B"
+				item: {
+					count: 1
+					id: "minecraft:netherrack"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "06FC0890BC768E4D"
+					item: { count: 1, id: "minecraft:lava_bucket" }
+					type: "item"
+				}
+				{
+					id: "23E3115BDF86DD20"
+					item: { count: 1, id: "minecraft:netherrack" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["57AFA92AD95F9B63"]
+			id: "398D4AEF0498D041"
+			rewards: [{
+				count: 2
+				id: "2F8443F47A45DC24"
+				item: {
+					count: 1
+					id: "minecraft:oak_leaves"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "18317BC1B74F940E"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:leaves)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "0BA0448091441F04"
+					item: { count: 1, id: "minecraft:water_bucket" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0152DF3081589EA1"]
+			id: "4D930E88B9A8598D"
+			rewards: [{
+				id: "1FE59C30EBA73E8A"
+				item: {
+					count: 1
+					id: "minecraft:obsidian"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1832D531E51412F9"
+				item: { count: 1, id: "minecraft:obsidian" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5DCFD2F28036FEC7"]
+			icon_scale: 1.1d
+			id: "173974137DC73C1E"
+			rewards: [{
+				id: "218D66D195B69B17"
+				item: {
+					count: 1
+					id: "minecraft:coal_block"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 0.9d
+			tasks: [{
+				id: "348033BDBD5689FA"
+				item: { count: 1, id: "ironfurnaces:iron_furnace" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4D930E88B9A8598D"]
+			id: "7629C8A5A897A3C6"
+			rewards: [{
+				count: 2
+				id: "195B471993A8AB29"
+				item: {
+					count: 1
+					id: "minecraft:obsidian"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.25d
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "13F6C10D013C3A8F"
+				type: "dimension"
+			}]
+			x: -0.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["6FA106C24A8C23F8"]
+			id: "4D38136BD51E9DBE"
+			rewards: [{
+				count: 2
+				id: "7692AD0B2709C5FB"
+				item: {
+					count: 1
+					id: "kubejs:superheated_pebble"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "434733D517049849"
+				item: { count: 1, id: "minecraft:magma_block" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.0d
+		}
+	]
+}

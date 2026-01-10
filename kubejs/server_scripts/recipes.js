@@ -13,7 +13,8 @@ ServerEvents.recipes(event => {
     { output: 'minecraft:calcite', pebble: 'havenpebbles:calcite_pebble' },
     { output: 'minecraft:andesite', pebble: 'havenpebbles:andesite_pebble' },
     { output: 'minecraft:dripstone_block', pebble: 'havenpebbles:dripstone_pebble' },
-    { output: 'minecraft:netherrack', pebble: 'havenpebbles:netherrack_pebble' }
+    { output: 'minecraft:netherrack', pebble: 'havenpebbles:netherrack_pebble' },
+    { output: 'minecraft:magma_block', pebble: 'kubejs:superheated_pebble' }
   ];
 
   recipes.forEach(recipe => {
@@ -61,10 +62,21 @@ ServerEvents.recipes(event => {
 	], 'minecraft:tuff')
 
 
-  event.shapeless('kubejs:rough_andesite_alloy', [
-      '2x minecraft:andesite',
-      '2x minecraft:coal'
-  ])
+  event.shaped('kubejs:rough_andesite_alloy', [
+      'AC',
+      'CA'
+  ], {
+    A: 'minecraft:andesite',
+    C: 'minecraft:charcoal'
+  })
+
+  event.shaped('kubejs:rough_andesite_alloy', [
+      'AC',
+      'CA'
+  ], {
+    A: 'minecraft:andesite',
+    C: 'minecraft:coal'
+  })
 
 
   event.recipes.create.milling([
@@ -98,4 +110,9 @@ ServerEvents.recipes(event => {
       P: '#minecraft:planks',
       R: 'kubejs:rough_andesite_alloy'
   })
+
+  event.recipes.create.mixing([Fluid.of('minecraft:lava',250),'minecraft:netherrack'],'minecraft:magma_block');
+
+  event.blasting('kubejs:superheated_pebble', '#kubejs:pebble');
+
 })

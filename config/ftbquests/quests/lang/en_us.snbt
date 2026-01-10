@@ -1,17 +1,61 @@
 {
+	chapter.203F08CB632C970F.title: "Chapter 2: Andesite Age"
 	chapter.4318665C5B015F8C.title: "Chaper 1: Wooden Age"
+	chapter.5DCB21ED22333DC8.title: "Iron Furnaces"
+	chapter_group.61596045A2515C70.title: "Sidequests"
+	quest.00A6B70FE4091AF7.quest_subtitle: "Mixing can automate past key \"alloys\""
+	quest.0152DF3081589EA1.title: "Hot soup"
+	quest.0608774F4DD8A98D.quest_desc: ["Check out what you can make using a fan with water and fire, but theres more to come later..."]
+	quest.0608774F4DD8A98D.quest_subtitle: "Spin the fan with certain blocks to do recipes"
+	quest.0608774F4DD8A98D.title: "Moving air"
 	quest.0C388E937B11562F.quest_desc: ["Use this in a millstone to unlock more resources"]
-	quest.1328C0761497EF08.quest_desc: ["A step into duping gravel! "]
-	quest.1B4D75E1CB338B57.quest_desc: [
-		"Mill some coarse dirt to duplicate dirt."
-		"Now you don't have to worry about running out of dirt!"
-	]
+	quest.1328C0761497EF08.quest_desc: ["A step into duping dirt! "]
+	quest.1328C0761497EF08.quest_subtitle: "Mill Cobblestone for gravel"
+	quest.173974137DC73C1E.quest_subtitle: "Your gateway to the Iron Furnaces mod"
+	quest.173974137DC73C1E.title: "Advanced Cooking"
+	quest.1B4D75E1CB338B57.quest_desc: ["Now you don't have to worry about running out of dirt!"]
+	quest.1B4D75E1CB338B57.quest_subtitle: "Milling coarse dirt gives you dirt"
+	quest.28DB3E9125D2489D.title: "Playing with your new toy"
 	quest.337556D5EA7EFC1D.quest_desc: ["The only other thing you can get right at the start, don't run out of saplings"]
+	quest.366B417986B1E5DE.quest_desc: [""]
+	quest.366B417986B1E5DE.quest_subtitle: "Mill dirt to get all sorts of seeds"
 	quest.366B417986B1E5DE.title: "Various Seeds"
+	quest.398D4AEF0498D041.quest_subtitle: "Pressing leaves can extract their water"
+	quest.398D4AEF0498D041.title: "Wet leaves"
+	quest.3D79289573C002FA.quest_subtitle: "Welcome to the andesite age!"
 	quest.3D79289573C002FA.title: "Welcome to the next step"
 	quest.3E012F13C26E9BB5.quest_desc: ["Any pebble can be turned into the block form with 4 of them"]
 	quest.3E012F13C26E9BB5.title: "Stone Blocks"
+	quest.4D38136BD51E9DBE.quest_subtitle: "Four superheated pebbles for a magma block"
+	quest.4D930E88B9A8598D.quest_subtitle: "Obsidian is made by pouring water over a lava source block"
+	quest.4D930E88B9A8598D.title: "Lava Glass"
+	quest.57AFA92AD95F9B63.quest_subtitle: "A press can do many things, like making sheets from iron"
+	quest.57AFA92AD95F9B63.title: "Flattening"
 	quest.59E8207DAC45BA87.quest_desc: ["The half of whats needed for early create"]
+	quest.5C6E61972C16E3FA.quest_desc: ["With this charcoal we can smelt more and dip our toes into create"]
 	quest.5C6E61972C16E3FA.title: "Smelting"
+	quest.5D68891F47E07B25.quest_desc: ["Each level of furnace can smelt faster and has multiple upgrades you can craft"]
+	quest.5D68891F47E07B25.quest_subtitle: "Welcome to better furnaces!"
+	quest.5D68891F47E07B25.title: "Iron Furnaces"
+	quest.5DCFD2F28036FEC7.quest_desc: ["Ahhh, your first iron. Now we can truly crack open the create mod"]
+	quest.5DCFD2F28036FEC7.title: "The Andesite Age"
 	quest.62806B364112A40A.quest_desc: ["&lShift&r + &lRight Click&r the ground to gather pebbles"]
+	quest.62806B364112A40A.quest_subtitle: "Gather pebbles from the ground, fill 2x2 with a type of pebbles for a block"
+	quest.695AA198E13654CF.quest_subtitle: "Now we are getting expensive!"
+	quest.6AF6228602A2DCED.quest_subtitle: "Your first taste of create"
+	quest.6FA106C24A8C23F8.quest_subtitle: "Blasting pebbles allows you to superheat them"
+	quest.74D8AF7AA127A459.quest_desc: [""]
+	quest.74D8AF7AA127A459.quest_subtitle: "Mill flax to get string"
+	quest.7629C8A5A897A3C6.quest_desc: ["The nether is also void however there are fortresses"]
+	quest.7629C8A5A897A3C6.quest_subtitle: "Wait, where's the land?"
+	quest.78110B0637367E46.quest_desc: [
+		"\"&lBlast&r - Build - Battle\" –Motto of the U.S. 16th Engineer Brigade"
+		"&8(Wait, only one of those works here...)&r"
+	]
+	quest.78110B0637367E46.quest_subtitle: "Even faster cooking of ores"
+	quest.78110B0637367E46.title: "Blasting"
+	task.001BE9D4A6A70FB1.title: "Any #kubejs:pebble"
+	task.13F6C10D013C3A8F.title: "Burning dimension"
+	task.18317BC1B74F940E.title: "Any #minecraft:leaves"
+	task.56D48918F383F0FB.title: "Any #kubejs:pebble"
 }

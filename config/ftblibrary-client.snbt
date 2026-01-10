@@ -28,6 +28,11 @@
 				x: 2
 				y: 0
 			}
+			"ftbessentials:trash_can": {
+				enabled: true
+				x: 1
+				y: 2
+			}
 			"ftbultimine:config": {
 				enabled: true
 				x: 0
@@ -45,7 +50,7 @@
 			}
 			"ftblibrary:config": {
 				enabled: true
-				x: 1
+				x: 2
 				y: 2
 			}
 			"ftblibrary:toggle/day": {

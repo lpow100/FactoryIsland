@@ -1,0 +1,22 @@
+#Enable growth particles
+showParticles = true
+#Use whitelist only. (will override blacklist and onlySaplingsAndCrops)
+useWhitelistOnly = true
+#Whitelist of blocks that will grow.
+whiteList = ["minecraft:wheat", "minecraft:beetroots", "minecraft:carrots", "minecraft:potatoes", "minecraft:melon_stem", "minecraft:pumpkin_stem", "minecraft:bamboo_sapling", "minecraft:oak_sapling", "minecraft:spruce_sapling", "minecraft:birch_sapling", "minecraft:jungle_sapling", "minecraft:acacia_sapling", "minecraft:dark_oak_sapling", "supplementaries:flax"]
+#Blacklist of blocks that will not grow.
+blackList = ["minecraft:grass_block", "minecraft:netherrack", "minecraft:warped_nylium", "minecraft:crimson_nylium"]
+#Only grow sapling tags and crop tags. (blacklist can exclude these)
+onlySaplingsAndCrops = true
+#The distance from the player to check for growth in blocks. (N S E W)
+# Default: 5
+# Range: 1 ~ 20
+playerDistance = 5
+#The chance of growth applied by sprinting. (1 = 100%)
+# Default: 0.075
+# Range: 0.0 ~ 1.0
+sprintGrowthChance = 0.075
+#The chance of growth applied by crouching. (1 = 100%)
+# Default: 0.15
+# Range: 0.0 ~ 1.0
+crouchGrowthChance = 0.15
