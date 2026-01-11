@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "chaper_1_andesite_age"
-	group: ""
+	group: "505FEEA3E13F12D8"
 	icon: {
 		id: "minecraft:oak_log"
 	}
@@ -188,29 +188,9 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["62806B364112A40A"]
-			id: "0C388E937B11562F"
-			rewards: [{
-				count: 2
-				id: "69062895BB1D8FC4"
-				item: {
-					count: 1
-					id: "minecraft:tuff"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "5CDE0714A846BB32"
-				item: { count: 1, id: "minecraft:tuff" }
-				type: "item"
-			}]
-			x: 5.0d
-			y: -2.5d
-		}
-		{
 			dependencies: [
 				"1AFFDD2F7A2EFB29"
-				"0C388E937B11562F"
+				"456275981719704D"
 			]
 			id: "3D79289573C002FA"
 			rewards: [{
@@ -304,7 +284,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -4.0d
+			y: -4.5d
 		}
 		{
 			dependencies: [
@@ -334,7 +314,7 @@
 				}
 			]
 			x: -1.5d
-			y: -4.5d
+			y: -5.0d
 		}
 		{
 			id: "74F82682E5633A55"
@@ -394,18 +374,131 @@
 				}
 			]
 			x: -0.5d
-			y: -2.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["366B417986B1E5DE"]
 			id: "74D8AF7AA127A459"
-			tasks: [{
-				id: "0FCA189E507DD5F2"
-				item: { count: 1, id: "minecraft:string" }
+			rewards: [{
+				count: 2
+				id: "0A692213A50ECE89"
+				item: {
+					count: 1
+					id: "supplementaries:flax"
+				}
 				type: "item"
 			}]
-			x: -0.5d
-			y: 0.0d
+			tasks: [
+				{
+					id: "733DD3837EA71829"
+					item: { count: 1, id: "supplementaries:flax" }
+					type: "item"
+				}
+				{
+					id: "0FCA189E507DD5F2"
+					item: { count: 1, id: "minecraft:string" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["62806B364112A40A"]
+			id: "456275981719704D"
+			rewards: [{
+				count: 2
+				id: "71CC1A653AA2DC55"
+				item: {
+					count: 1
+					id: "minecraft:tuff"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "00BACA49925D70BB"
+				item: { count: 1, id: "minecraft:tuff" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["74D8AF7AA127A459"]
+			id: "31C8475C458196DD"
+			tasks: [{
+				id: "3B3D71EB792CD786"
+				item: { count: 1, id: "minecraft:white_wool" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["31C8475C458196DD"]
+			id: "3E059A233DDB339C"
+			rewards: [{
+				id: "4575C3661FD28C98"
+				item: {
+					count: 1
+					id: "minecraft:white_wool"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0484F997224387B7"
+				item: { count: 1, id: "minecraft:white_bed" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["366B417986B1E5DE"]
+			id: "787E2DF916813890"
+			rewards: [{
+				count: 2
+				id: "3228D187CCF035BA"
+				item: {
+					count: 1
+					id: "minecraft:bone_meal"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5E1361F21730B445"
+					item: { count: 1, id: "minecraft:composter" }
+					type: "item"
+				}
+				{
+					id: "0F82BCEA390C3ECB"
+					item: { count: 1, id: "minecraft:bone_meal" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3D79289573C002FA"]
+			id: "66DFBD88907DBD3D"
+			rewards: [{
+				count: 5
+				id: "31BC4210B9B4EDAE"
+				item: {
+					count: 1
+					id: "create:crushed_raw_iron"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "33BA6CDD7B404835"
+				item: { count: 1, id: "minecraft:redstone" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -6.5d
 		}
 	]
 }

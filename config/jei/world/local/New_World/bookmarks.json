@@ -1,11 +1,17 @@
 [
   {"version":2},
-  {"ingredient":{"id":"ironfurnaces:copper_furnace"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"ironfurnaces:iron_furnace"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"ironfurnaces:gold_furnace"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"ironfurnaces:diamond_furnace"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"ironfurnaces:emerald_furnace"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"ironfurnaces:crystal_furnace"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"ironfurnaces:obsidian_furnace"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"ironfurnaces:netherite_furnace"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+  {"ingredient":{"id":"generatorgalore:copper_generator"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"generatorgalore:iron_generator"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"generatorgalore:gold_generator"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"generatorgalore:culinary_generator"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"generatorgalore:honey_generator"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"generatorgalore:potion_generator"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"generatorgalore:diamond_generator"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"generatorgalore:emerald_generator"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"generatorgalore:obsidian_generator"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"generatorgalore:netherite_generator"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"generatorgalore:enchantment_generator"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"generatorgalore:magmatic_generator"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"generatorgalore:ender_generator"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"generatorgalore:halitosis_generator"},"type":"item_stack","bookmarkType":"INGREDIENT"}
 ]

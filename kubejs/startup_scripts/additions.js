@@ -9,12 +9,15 @@ StartupEvents.registry('item', event => {
   event.create('geode')
     .maxStackSize(64)
     .texture('kubejs:item/geode');
-  event.create('common_mineral_dust')
-    .maxStackSize(64)
-    .texture('kubejs:item/common_mineral_dust');
   event.create('rare_mineral_dust')
     .maxStackSize(64)
     .texture('kubejs:item/rare_mineral_dust');
+  event.create('rare_mineral_clump')
+    .maxStackSize(64)
+    .texture('kubejs:item/rare_minerals');
+  event.create('blazing_mineral_clump')
+    .maxStackSize(64)
+    .texture('kubejs:item/blazing_mineral_clump');
 });
 
 StartupEvents.registry('fluid', event => {
@@ -22,5 +25,11 @@ StartupEvents.registry('fluid', event => {
     .displayName('Mineral Soup')
     .stillTexture('kubejs:block/still_mineral')
     .flowingTexture('kubejs:block/flowing_mineral')
+    .noBlock() 
+  event.create('rare_mineral_soup')
+    .displayName('Rare Mineral Soup')
+    .stillTexture('kubejs:block/still_rare_mineral')
+    .flowingTexture('kubejs:block/flowing_rare_mineral')
+    .noBlock() 
 })
 

@@ -1,6 +1,16 @@
 create:striated_ores_nether
 create:striated_ores_overworld
 create:zinc_ore
+farmersdelight:patch_brown_mushroom_colony
+farmersdelight:patch_red_mushroom_colony
+farmersdelight:patch_sandy_shrub
+farmersdelight:patch_wild_beetroots
+farmersdelight:patch_wild_cabbages
+farmersdelight:patch_wild_carrots
+farmersdelight:patch_wild_onions
+farmersdelight:patch_wild_potatoes
+farmersdelight:patch_wild_rice
+farmersdelight:patch_wild_tomatoes
 minecraft:acacia
 minecraft:amethyst_geode
 minecraft:azalea_tree

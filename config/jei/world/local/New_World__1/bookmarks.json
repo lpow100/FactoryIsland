@@ -1,0 +1,6 @@
+[
+  {"version":2},
+  {"recipe":"kubejs:kjs/create_millstone","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"recipe":"kubejs:kjs/create_hand_crank","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"recipe":"ironfurnaces:furnaces/copper_furnace","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"}
+]

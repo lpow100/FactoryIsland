@@ -1,0 +1,235 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create_fluids"
+	group: "61596045A2515C70"
+	icon: {
+		id: "create:fluid_pipe"
+	}
+	id: "1B8275BDA56FF134"
+	images: [{
+		height: 1.0d
+		hover: ["Brass based blocks, wait till chapter 3"]
+		image: "create:item/brass_ingot"
+		rotation: 0.0d
+		width: 1.0d
+		x: -0.5d
+		y: -3.5d
+	}]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6F7CDF246DE8FCCE"]
+			id: "32D38056F3EAA9FA"
+			rewards: [{
+				count: 2
+				id: "4F4570F3E0799BFE"
+				item: {
+					count: 1
+					id: "create:fluid_pipe"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [
+				{
+					id: "155983DA74A173D4"
+					item: { count: 1, id: "create:fluid_pipe" }
+					type: "item"
+				}
+				{
+					id: "3EC3518756135DB7"
+					item: { count: 1, id: "create:mechanical_pump" }
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"32D38056F3EAA9FA"
+				"1766A45F88B66F93"
+				"51A539323B472B4B"
+			]
+			id: "5529F79653E278C9"
+			rewards: [{
+				count: 2
+				id: "2367670CD9EE1EF9"
+				item: {
+					count: 1
+					id: "create:fluid_pipe"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "780B60D6CD5496ED"
+				item: { count: 1, id: "create:smart_fluid_pipe" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["32D38056F3EAA9FA"]
+			id: "2FEE7D8DA3C0277C"
+			rewards: [{
+				count: 2
+				id: "2B475882D3B1F9F5"
+				item: {
+					count: 1
+					id: "create:fluid_tank"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0CE9FE5A90D9C49B"
+				item: { count: 1, id: "create:fluid_tank" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["32D38056F3EAA9FA"]
+			id: "5BE72958014EAC9D"
+			rewards: [{
+				count: 2
+				id: "43292E69EA4F2072"
+				item: {
+					count: 1
+					id: "create:fluid_pipe"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6ECD80F7E067F292"
+				item: { count: 1, id: "create:spout" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["32D38056F3EAA9FA"]
+			id: "4E81CA8A74619580"
+			rewards: [{
+				id: "23B261C3FBE846DD"
+				item: {
+					count: 1
+					id: "create:fluid_pipe"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "57BF342C8E3EC2AC"
+				item: { count: 1, id: "create:item_drain" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6FD88964202489F6"
+				"32D38056F3EAA9FA"
+			]
+			id: "56A66B936E789ECA"
+			rewards: [{
+				id: "4E96E86888E9B5E3"
+				item: {
+					count: 1
+					id: "minecraft:water_bucket"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "70D71ABAF8D72694"
+					item: { count: 1, id: "create:steam_engine" }
+					type: "item"
+				}
+				{
+					id: "3D0085B550DCE6BF"
+					item: { count: 1, id: "create:blaze_burner" }
+					type: "item"
+				}
+				{
+					id: "67A9C08F1D563336"
+					item: { count: 1, id: "create:fluid_tank" }
+					type: "item"
+				}
+				{
+					id: "400CECF9AA14108F"
+					item: { count: 1, id: "create:mechanical_pump" }
+					type: "item"
+				}
+				{
+					id: "77AAA1D32F4DB2E8"
+					item: { count: 1, id: "create:shaft" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["32D38056F3EAA9FA"]
+			id: "5B0D7D2268D92205"
+			rewards: [{
+				id: "7EFDDA8E500A4E27"
+				item: {
+					count: 1
+					id: "minecraft:bucket"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "111B5111F9D5B29E"
+				item: { count: 1, id: "create_dragons_plus:fluid_hatch" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4E81CA8A74619580"]
+			id: "5A89F6B0AC5B689C"
+			rewards: [{
+				id: "0581269DB94FD020"
+				item: {
+					count: 1
+					id: "create:item_drain"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6A30F58FE6F9E4B1"
+				item: { count: 1, id: "create_enchantment_industry:mechanical_grindstone" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5BE72958014EAC9D"]
+			id: "40A5758D0D4D6A86"
+			rewards: [{
+				id: "59F6B4ABE33A0B35"
+				item: {
+					count: 1
+					id: "create:spout"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "641B59C93BAEED31"
+				item: { count: 1, id: "create_enchantment_industry:printer" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+	]
+}

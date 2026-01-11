@@ -1,39 +1,105 @@
 {
+	chapter.04837D18F9D79945.title: "Welcome!"
+	chapter.1B8275BDA56FF134.title: "Create Fluids"
 	chapter.203F08CB632C970F.title: "Chapter 2: Andesite Age"
+	chapter.30FC12F4DE4E1C04.title: "Chapter 3: Nether Age"
+	chapter.3FB959D3DBFF1E24.title: "Enchantment Industry"
 	chapter.4318665C5B015F8C.title: "Chaper 1: Wooden Age"
+	chapter.48ED753ED8A86A6E.title: "Generators Galore"
 	chapter.5DCB21ED22333DC8.title: "Iron Furnaces"
+	chapter_group.505FEEA3E13F12D8.title: "Main progression"
 	chapter_group.61596045A2515C70.title: "Sidequests"
 	quest.00A6B70FE4091AF7.quest_subtitle: "Mixing can automate past key \"alloys\""
 	quest.0152DF3081589EA1.title: "Hot soup"
+	quest.05CB609BBE69B2BE.quest_desc: [
+		"Large and small cogs can mesh"
+		""
+		"If you spin a small cog wheel and it connects to large cog it will spin slower"
+		""
+		"A large cog connected to a small cog will spin slower"
+	]
+	quest.05CB609BBE69B2BE.quest_subtitle: "Now you can do gear ratios (explained in desc.)"
 	quest.0608774F4DD8A98D.quest_desc: ["Check out what you can make using a fan with water and fire, but theres more to come later..."]
 	quest.0608774F4DD8A98D.quest_subtitle: "Spin the fan with certain blocks to do recipes"
 	quest.0608774F4DD8A98D.title: "Moving air"
-	quest.0C388E937B11562F.quest_desc: ["Use this in a millstone to unlock more resources"]
 	quest.1328C0761497EF08.quest_desc: ["A step into duping dirt! "]
 	quest.1328C0761497EF08.quest_subtitle: "Mill Cobblestone for gravel"
-	quest.173974137DC73C1E.quest_subtitle: "Your gateway to the Iron Furnaces mod"
-	quest.173974137DC73C1E.title: "Advanced Cooking"
+	quest.14D4634597458A88.quest_subtitle: "Enchant with a seething blaze and capture the lightning in a block of XP"
+	quest.14D4634597458A88.title: "Super XP"
+	quest.15068243F7EF49E1.quest_subtitle: "The best ore you'll find"
+	quest.15068243F7EF49E1.title: "Netherite"
 	quest.1B4D75E1CB338B57.quest_desc: ["Now you don't have to worry about running out of dirt!"]
 	quest.1B4D75E1CB338B57.quest_subtitle: "Milling coarse dirt gives you dirt"
+	quest.203BA561020AE411.quest_subtitle: "Absorb XP from nearby players"
+	quest.20C63E18E2D380BB.quest_subtitle: "The peak of furnaces"
+	quest.2171F237FBF0D63E.quest_subtitle: "Crush or mill a blazing mineral clump"
+	quest.22D908F1428521B5.quest_desc: [
+		"KubeJS is the glue that holds this pack togther, it adds recipes like ones needed to progress but it also adds items and tags."
+		"Anything prefixed &okubejs:&r is added by kubejs and will therefore only be in this modpack"
+	]
+	quest.24A027293F265B28.quest_subtitle: "Press 1 stone with lava"
 	quest.28DB3E9125D2489D.title: "Playing with your new toy"
+	quest.2A86EBA05916AE1F.quest_subtitle: "Press 9 stone with lava, Now you have access to infinte tuff"
+	quest.2BDE52B4670001D5.quest_subtitle: "You now have better millstones, heres some things to crush"
+	quest.2CB1552F8A114CBA.title: "Handy Machines"
+	quest.2CB7F9189AF2AD33.quest_subtitle: "Store your XP"
+	quest.2DEDB0FC0E1A674A.quest_subtitle: "Smith new blaze burners"
+	quest.31C8475C458196DD.quest_subtitle: "Wool takes a lot of string, so crouching can help plants grow"
+	quest.31C8475C458196DD.title: "Wool"
+	quest.32D38056F3EAA9FA.quest_subtitle: "Now you don't have to move them yourself"
+	quest.32D38056F3EAA9FA.title: "Moving Fluids"
+	quest.33306904B89AB233.quest_subtitle: "Hold W while hovering on the item to ponder and learn more"
 	quest.337556D5EA7EFC1D.quest_desc: ["The only other thing you can get right at the start, don't run out of saplings"]
+	quest.337556D5EA7EFC1D.quest_subtitle: "You can crouch and uncrouch to grow things"
+	quest.345754CF5AECFB60.quest_subtitle: "Crush some lapis"
+	quest.345754CF5AECFB60.title: "Liquid XP"
 	quest.366B417986B1E5DE.quest_desc: [""]
 	quest.366B417986B1E5DE.quest_subtitle: "Mill dirt to get all sorts of seeds"
 	quest.366B417986B1E5DE.title: "Various Seeds"
 	quest.398D4AEF0498D041.quest_subtitle: "Pressing leaves can extract their water"
 	quest.398D4AEF0498D041.title: "Wet leaves"
+	quest.3D511503A7F274B4.quest_desc: [
+		"Dig a 4x1x1 Hole going sideways, then dig a hole below one of the middle spots. "
+		"Place water on the edge of the long hole next to the other hole, now place lava on the other end."
+	]
+	quest.3D511503A7F274B4.quest_subtitle: "Infite cobblestone as a block just make sure you have water"
+	quest.3D511503A7F274B4.title: "Cobblestone generator"
+	quest.3D66100C02871C59.quest_subtitle: "8 redstone + 1 quartz"
 	quest.3D79289573C002FA.quest_subtitle: "Welcome to the andesite age!"
 	quest.3D79289573C002FA.title: "Welcome to the next step"
 	quest.3E012F13C26E9BB5.quest_desc: ["Any pebble can be turned into the block form with 4 of them"]
 	quest.3E012F13C26E9BB5.title: "Stone Blocks"
+	quest.4095C0961543466B.quest_subtitle: "Pebbles create more pebbles? Don't think about it too much"
+	quest.4095C0961543466B.title: "Limitless pebbles"
+	quest.40A5758D0D4D6A86.quest_subtitle: "Readress packages"
+	quest.40C29D2EA4CE580A.quest_desc: ["The core of the best furnace"]
+	quest.456275981719704D.quest_subtitle: "Milling Tuff (or pebbles) unlocks new ores"
+	quest.465E6BA5D8FAEFE7.quest_subtitle: "Put a geode in a mixer with a heated blaze burner below"
+	quest.465E6BA5D8FAEFE7.title: "Mineral Soup?"
 	quest.4D38136BD51E9DBE.quest_subtitle: "Four superheated pebbles for a magma block"
 	quest.4D930E88B9A8598D.quest_subtitle: "Obsidian is made by pouring water over a lava source block"
 	quest.4D930E88B9A8598D.title: "Lava Glass"
+	quest.53C88A4977EF428E.quest_subtitle: "compress liquid XP"
+	quest.54291238107B8A28.quest_subtitle: "Bonemeal underwater blocks to get seagrass, use shears to get the items"
+	quest.544546C98F498397.quest_subtitle: "You might want to automate this"
+	quest.5529F79653E278C9.quest_subtitle: "You will need quartz and brass for this, they are from chapter 3"
+	quest.56A66B936E789ECA.quest_desc: [
+		"A steam engine is pretty simple:"
+		"1. Pump water into the tank"
+		"2. Use a blaze burner below the tank to heat it"
+		"3. Then use the steam engine block with a shaft to get rotational force"
+	]
+	quest.56A66B936E789ECA.quest_subtitle: "Much power in one little machine"
 	quest.57AFA92AD95F9B63.quest_subtitle: "A press can do many things, like making sheets from iron"
 	quest.57AFA92AD95F9B63.title: "Flattening"
+	quest.5883F199F41C1E15.quest_subtitle: "In the nether you'll find the use for this"
 	quest.59E8207DAC45BA87.quest_desc: ["The half of whats needed for early create"]
+	quest.5A89F6B0AC5B689C.quest_subtitle: "Upgrade the drain"
+	quest.5B0D7D2268D92205.quest_subtitle: "Throw fluids in a tank"
+	quest.5BE72958014EAC9D.quest_subtitle: "These can apply fluids onto items"
 	quest.5C6E61972C16E3FA.quest_desc: ["With this charcoal we can smelt more and dip our toes into create"]
 	quest.5C6E61972C16E3FA.title: "Smelting"
+	quest.5D5FB8D84D138489.quest_subtitle: "Wash tuff to get a geode, try milling it"
 	quest.5D68891F47E07B25.quest_desc: ["Each level of furnace can smelt faster and has multiple upgrades you can craft"]
 	quest.5D68891F47E07B25.quest_subtitle: "Welcome to better furnaces!"
 	quest.5D68891F47E07B25.title: "Iron Furnaces"
@@ -41,11 +107,23 @@
 	quest.5DCFD2F28036FEC7.title: "The Andesite Age"
 	quest.62806B364112A40A.quest_desc: ["&lShift&r + &lRight Click&r the ground to gather pebbles"]
 	quest.62806B364112A40A.quest_subtitle: "Gather pebbles from the ground, fill 2x2 with a type of pebbles for a block"
+	quest.62806B364112A40A.title: "Pebbles"
+	quest.62C2F929502483B5.quest_desc: ["If you notice any bugs, or something you think is wrong go to the discord from the link below the welcome quest and let me know!"]
+	quest.66DFBD88907DBD3D.title: "Wash your crushed iron"
 	quest.695AA198E13654CF.quest_subtitle: "Now we are getting expensive!"
 	quest.6AF6228602A2DCED.quest_subtitle: "Your first taste of create"
+	quest.6CA7DDCCD11B8743.quest_subtitle: "Another way to get coal"
+	quest.6F7CDF246DE8FCCE.quest_subtitle: "Now you can automate liquis"
+	quest.6F7CDF246DE8FCCE.title: "Fluid Dynamics"
 	quest.6FA106C24A8C23F8.quest_subtitle: "Blasting pebbles allows you to superheat them"
+	quest.6FD88964202489F6.title: "Blaze Burner"
+	quest.7189765109B910E4.quest_desc: ["Quests are not required for this modpack, but are just here to show progression and give some bonus items to help you"]
+	quest.730A96EFAE7D613A.quest_desc: ["Finally you can use the create drill to break the cobblestone"]
+	quest.730A96EFAE7D613A.title: "Automating cobblestone"
 	quest.74D8AF7AA127A459.quest_desc: [""]
-	quest.74D8AF7AA127A459.quest_subtitle: "Mill flax to get string"
+	quest.74D8AF7AA127A459.quest_subtitle: "You can craft string from flax or mill for a chance of more"
+	quest.74D8AF7AA127A459.title: "String"
+	quest.75F67A88F86F4D3A.quest_subtitle: "Feed this to a blaze enchanter to make them seething"
 	quest.7629C8A5A897A3C6.quest_desc: ["The nether is also void however there are fortresses"]
 	quest.7629C8A5A897A3C6.quest_subtitle: "Wait, where's the land?"
 	quest.78110B0637367E46.quest_desc: [
@@ -54,8 +132,21 @@
 	]
 	quest.78110B0637367E46.quest_subtitle: "Even faster cooking of ores"
 	quest.78110B0637367E46.title: "Blasting"
+	quest.78375148595A5C8D.title: "Rare ores"
+	quest.787E2DF916813890.quest_subtitle: "Compost the plants you've grown for bonemeal"
+	quest.787E2DF916813890.title: "Bonemeal"
+	quest.7E544504E6173414.quest_subtitle: "Hold W while hovering on the item to ponder and learn more"
+	quest.7F8F4E59D1091FF0.quest_subtitle: "Press a block of XP"
 	task.001BE9D4A6A70FB1.title: "Any #kubejs:pebble"
+	task.02EAAE946498B49F.title: "What is KubeJs?"
 	task.13F6C10D013C3A8F.title: "Burning dimension"
+	task.176BF0B4C84E9AF1.title: "Any #kubejs:pebble"
 	task.18317BC1B74F940E.title: "Any #minecraft:leaves"
+	task.1C9D9A43BC9F75C1.title: "Quests"
+	task.25E364C7DC50DAA6.title: "Anything wrong?"
+	task.5027C0F37876F442.title: "Any #kubejs:netherrack_pebbles"
 	task.56D48918F383F0FB.title: "Any #kubejs:pebble"
+	task.5DE7CED44D729B1F.title: "Welcome to Factory Island"
+	task.6B5CE28DCCB12052.title: "Advice"
+	task.79BEE65DD3336421.title: "Any #kubejs:rare_mineral_ore"
 }

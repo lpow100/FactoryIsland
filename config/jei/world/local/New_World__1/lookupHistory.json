@@ -1,4 +1,12 @@
 [
   {"version":1},
-  {"ingredient":{"id":"supplementaries:flax"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+  {"ingredient":{"id":"minecraft:clay"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:clay_ball"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ironfurnaces:copper_furnace"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"farmersdelight:straw"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"supplementaries:flax"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"recipe":"kubejs:kjs/create_hand_crank","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"recipe":"kubejs:kjs/create_millstone","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"ingredient":{"id":"create:hand_crank"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create:millstone"},"type":"item_stack","bookmarkType":"INGREDIENT"}
 ]

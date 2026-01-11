@@ -1,0 +1,431 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_3"
+	group: "505FEEA3E13F12D8"
+	icon: {
+		components: {
+			"ftbquests:icon": "minecraft:block/nether_portal"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "30FC12F4DE4E1C04"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7629C8A5A897A3C6"]
+			hide_until_deps_complete: true
+			id: "6FD88964202489F6"
+			rewards: [{
+				id: "53306F032DF62AA3"
+				item: {
+					count: 1
+					id: "minecraft:coal_block"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.25d
+			tasks: [
+				{
+					icon: {
+						components: {
+							"ftbquests:icon": "supplementaries:textures/map/decorations/nether_fortress.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "75308EB276E91F64"
+					structure: "minecraft:fortress"
+					type: "structure"
+				}
+				{
+					id: "4C8882560BD4D718"
+					item: { count: 1, id: "create:blaze_burner" }
+					type: "item"
+				}
+			]
+			x: 1.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6FD88964202489F6"]
+			id: "465E6BA5D8FAEFE7"
+			rewards: [{
+				id: "726C0F8195DF3D6D"
+				item: {
+					count: 1
+					id: "kubejs:geode"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "67E32F7A01F62EF2"
+					item: { count: 1, id: "kubejs:geode" }
+					type: "item"
+				}
+				{
+					fluid: {
+						amount: 1000
+						id: "kubejs:mineral_soup"
+					}
+					id: "4349D0CD2FCA5354"
+					type: "fluid"
+				}
+			]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6FD88964202489F6"]
+			id: "51A539323B472B4B"
+			rewards: [
+				{
+					count: 2
+					id: "452602128EE411A8"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "528D319B18E01FA2"
+					item: {
+						count: 1
+						id: "create:zinc_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "54AF4F067E652FD1"
+				item: { count: 1, id: "create:brass_ingot" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"544546C98F498397"
+				"465E6BA5D8FAEFE7"
+			]
+			id: "0A04552BD893F474"
+			tasks: [{
+				fluid: {
+					amount: 1000
+					id: "kubejs:rare_mineral_soup"
+				}
+				id: "00A1ED2CEA7ED030"
+				type: "fluid"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7629C8A5A897A3C6"]
+			id: "544546C98F498397"
+			tasks: [{
+				id: "49D4E6B504F67542"
+				item: { count: 1, id: "minecraft:cobbled_deepslate" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0A04552BD893F474"]
+			id: "5916D9E9F241134B"
+			tasks: [{
+				id: "2010FF8CFD78D9BB"
+				item: { count: 1, id: "kubejs:rare_mineral_clump" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0A04552BD893F474"]
+			id: "78375148595A5C8D"
+			rewards: [{
+				id: "19950BCF3A33B3DA"
+				item: {
+					count: 1
+					id: "kubejs:rare_mineral_soup_bucket"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "79BEE65DD3336421"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(kubejs:rare_mineral_ore)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5916D9E9F241134B"]
+			id: "5003B9BC515E4928"
+			rewards: [{
+				count: 2
+				id: "40896F87AC81BEA7"
+				item: {
+					components: {
+						"ftbquests:missing_item": "kubejs:rare_minerals"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "536E730DC796F9CD"
+				item: { count: 1, id: "kubejs:rare_mineral_dust" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"5003B9BC515E4928"
+				"2CB1552F8A114CBA"
+				"730F656BE5D4AB1C"
+			]
+			id: "15068243F7EF49E1"
+			rewards: [
+				{
+					id: "1799F7BB8364B4BE"
+					item: {
+						count: 1
+						id: "minecraft:netherite_scrap"
+					}
+					type: "item"
+				}
+				{
+					id: "6B3315A2D615CA27"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3BFA2CAEA3C3904F"
+					item: { count: 1, id: "minecraft:netherite_scrap" }
+					type: "item"
+				}
+				{
+					id: "3F8FC1A91485A8C4"
+					item: { count: 1, id: "minecraft:netherite_ingot" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["465E6BA5D8FAEFE7"]
+			id: "4095C0961543466B"
+			tasks: [{
+				id: "176BF0B4C84E9AF1"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(kubejs:pebble)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["51A539323B472B4B"]
+			id: "2CB1552F8A114CBA"
+			rewards: [{
+				count: 2
+				id: "380A3CE22E5D78E7"
+				item: {
+					count: 1
+					id: "create:brass_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5ED20FFF7D622E36"
+					item: { count: 1, id: "create:brass_hand" }
+					type: "item"
+				}
+				{
+					id: "2986FF533F77A308"
+					item: { count: 1, id: "create:deployer" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0152DF3081589EA1"]
+			id: "730F656BE5D4AB1C"
+			tasks: [{
+				id: "625F8891105EAF81"
+				item: { count: 1, id: "minecraft:basalt" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["0A04552BD893F474"]
+			id: "1766A45F88B66F93"
+			rewards: [{
+				id: "14F426D972E9442C"
+				item: {
+					count: 1
+					id: "kubejs:blazing_mineral_clump"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3BC06AEA49F0E8C6"
+				item: { count: 1, id: "kubejs:blazing_mineral_clump" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"51A539323B472B4B"
+				"3D66100C02871C59"
+			]
+			id: "11C1281D2FFE5C17"
+			tasks: [{
+				id: "60CF65F9136D8A03"
+				item: { count: 1, id: "create:mechanical_crafter" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1766A45F88B66F93"]
+			id: "2171F237FBF0D63E"
+			rewards: [{
+				count: 2
+				id: "71888A5F107BDA01"
+				item: {
+					count: 1
+					id: "minecraft:quartz"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3FE7D8B06618E578"
+				item: { count: 1, id: "minecraft:quartz" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"2171F237FBF0D63E"
+				"78375148595A5C8D"
+			]
+			id: "3D66100C02871C59"
+			rewards: [
+				{
+					id: "667DC8960FCAAB14"
+					item: {
+						count: 1
+						id: "minecraft:quartz"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2368080C083C043F"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "511363D238179CC3"
+				item: { count: 1, id: "create:rose_quartz" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"78375148595A5C8D"
+				"2BDE52B4670001D5"
+			]
+			id: "345754CF5AECFB60"
+			rewards: [{
+				count: 2
+				id: "45C1A9EE7721D163"
+				item: {
+					count: 1
+					id: "minecraft:lapis_lazuli"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [
+				{
+					id: "1C0C916BB29228FC"
+					item: { count: 1, id: "minecraft:lapis_lazuli" }
+					type: "item"
+				}
+				{
+					id: "13EF01DDE72A26B2"
+					item: { count: 1, id: "sophisticatedcore:xp_bucket" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["11C1281D2FFE5C17"]
+			id: "2BDE52B4670001D5"
+			rewards: [
+				{
+					count: 4
+					id: "23CC13CA0A147CF4"
+					item: {
+						count: 1
+						id: "kubejs:geode"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "51B710173C05DC26"
+					item: {
+						count: 1
+						id: "kubejs:blazing_mineral_clump"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 2L
+				id: "7A23FF121E1A5006"
+				item: { count: 1, id: "create:crushing_wheel" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -5.0d
+		}
+	]
+}

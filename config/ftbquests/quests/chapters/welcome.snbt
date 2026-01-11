@@ -1,0 +1,124 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "welcome"
+	group: ""
+	icon: {
+		id: "ftbquests:book"
+	}
+	id: "04837D18F9D79945"
+	images: [
+		{
+			height: 1.0d
+			hover: ["Join the discord"]
+			image: "moonlight:textures/gui/sprites/media/discord.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			click: "https://ko-fi.com/trinary"
+			height: 1.0d
+			hover: ["Support me!"]
+			image: "moonlight:textures/gui/sprites/media/ko_fi.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: 1.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"62C2F929502483B5"
+				"7189765109B910E4"
+				"22D908F1428521B5"
+			]
+			id: "0486E019EAA3D814"
+			rewards: [{
+				count: 12
+				id: "1C4C41973E0AD919"
+				item: {
+					count: 1
+					id: "minecraft:cooked_beef"
+				}
+				type: "item"
+			}]
+			size: 1.25d
+			tasks: [{
+				id: "5DE7CED44D729B1F"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "kubejs:textures/font/icons/kube.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "22D908F1428521B5"
+			rewards: [{
+				count: 8
+				id: "76F2E2F16677E064"
+				item: {
+					count: 1
+					id: "minecraft:torch"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "02EAAE946498B49F"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "kubejs:textures/font/icons/warn.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "62C2F929502483B5"
+			rewards: [{
+				count: 4
+				id: "59D58947240112E8"
+				item: {
+					count: 1
+					id: "minecraft:bread"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "25E364C7DC50DAA6"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			icon: {
+				id: "ftbquests:book"
+			}
+			id: "7189765109B910E4"
+			rewards: [{
+				id: "740224C9CA626441"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "1C9D9A43BC9F75C1"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+	]
+}

@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "chapter_2_andesite_age"
-	group: ""
+	group: "505FEEA3E13F12D8"
 	icon: {
 		id: "create:andesite_alloy"
 	}
@@ -13,6 +13,7 @@
 		{
 			dependencies: ["3D79289573C002FA"]
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "5DCFD2F28036FEC7"
 			rewards: [{
 				count: 2
@@ -24,6 +25,7 @@
 				type: "item"
 			}]
 			shape: "gear"
+			size: 1.25d
 			tasks: [
 				{
 					id: "225AE9F710605A5F"
@@ -190,7 +192,7 @@
 				item: { count: 1, id: "kubejs:superheated_pebble" }
 				type: "item"
 			}]
-			x: -2.0d
+			x: -2.5d
 			y: -1.5d
 		}
 		{
@@ -242,13 +244,18 @@
 					type: "item"
 				}
 				{
+					id: "04B8E06324223442"
+					item: { count: 1, id: "create:basin" }
+					type: "item"
+				}
+				{
 					id: "0BA0448091441F04"
 					item: { count: 1, id: "minecraft:water_bucket" }
 					type: "item"
 				}
 			]
-			x: 1.0d
-			y: -2.0d
+			x: 1.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["0152DF3081589EA1"]
@@ -270,29 +277,8 @@
 			y: -6.0d
 		}
 		{
-			dependencies: ["5DCFD2F28036FEC7"]
-			icon_scale: 1.1d
-			id: "173974137DC73C1E"
-			rewards: [{
-				id: "218D66D195B69B17"
-				item: {
-					count: 1
-					id: "minecraft:coal_block"
-				}
-				type: "item"
-			}]
-			shape: "rsquare"
-			size: 0.9d
-			tasks: [{
-				id: "348033BDBD5689FA"
-				item: { count: 1, id: "ironfurnaces:iron_furnace" }
-				type: "item"
-			}]
-			x: 1.5d
-			y: -0.5d
-		}
-		{
 			dependencies: ["4D930E88B9A8598D"]
+			icon_scale: 0.8d
 			id: "7629C8A5A897A3C6"
 			rewards: [{
 				count: 2
@@ -332,6 +318,301 @@
 			}]
 			x: -2.5d
 			y: -3.0d
+		}
+		{
+			dependencies: ["5DCFD2F28036FEC7"]
+			id: "2EC3D50BF820F1A2"
+			rewards: [{
+				count: 3
+				id: "5FA25196A46A27D6"
+				item: {
+					count: 1
+					id: "create:shaft"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3150FAC63A4F3262"
+				item: { count: 1, id: "create:shaft" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2EC3D50BF820F1A2"]
+			id: "05CB609BBE69B2BE"
+			rewards: [{
+				count: 2
+				id: "6BF20AA42960BC07"
+				item: {
+					count: 1
+					id: "create:cogwheel"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3671AA86DF1D18D8"
+					item: { count: 1, id: "create:cogwheel" }
+					type: "item"
+				}
+				{
+					id: "45B04B09799142AC"
+					item: { count: 1, id: "create:large_cogwheel" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"398D4AEF0498D041"
+				"2EC3D50BF820F1A2"
+			]
+			id: "7E9E9FA8E98E15D8"
+			rewards: [{
+				count: 3
+				id: "24EFFE6FE1C286A7"
+				item: {
+					count: 1
+					id: "create:shaft"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "12E878F7EB053209"
+					item: { count: 1, id: "create:water_wheel" }
+					type: "item"
+				}
+				{
+					id: "54E720C81144701A"
+					item: { count: 1, id: "create:large_water_wheel" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["398D4AEF0498D041"]
+			id: "54291238107B8A28"
+			tasks: [
+				{
+					id: "70C249AEBD3711B1"
+					item: { count: 1, id: "minecraft:seagrass" }
+					type: "item"
+				}
+				{
+					id: "0722E4F51670FE7D"
+					item: { count: 1, id: "minecraft:shears" }
+					type: "item"
+				}
+				{
+					id: "7EDAC9A310499F00"
+					item: { count: 1, id: "minecraft:bone_meal" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["54291238107B8A28"]
+			id: "5DB78006FF00D5C4"
+			tasks: [{
+				id: "0ABC08B97932C8D9"
+				item: { count: 1, id: "minecraft:kelp" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0608774F4DD8A98D"]
+			id: "5D5FB8D84D138489"
+			rewards: [{
+				count: 2
+				id: "24C0017594F8111F"
+				item: {
+					count: 1
+					id: "minecraft:tuff"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5A0FFD855EADA515"
+				item: { count: 1, id: "kubejs:geode" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"0152DF3081589EA1"
+				"28DB3E9125D2489D"
+			]
+			id: "5883F199F41C1E15"
+			rewards: [{
+				count: 2
+				id: "62E0F4A73BFAB632"
+				item: {
+					count: 1
+					id: "create:iron_sheet"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7A672FF49A65547C"
+				item: { count: 1, id: "create:empty_blaze_burner" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3D511503A7F274B4"]
+			id: "730A96EFAE7D613A"
+			tasks: [{
+				id: "2FFCD18A24A79B4E"
+				item: { count: 1, id: "create:mechanical_drill" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0152DF3081589EA1"]
+			id: "3D511503A7F274B4"
+			rewards: [{
+				count: 16
+				id: "2C0C54B7B7CC4BFB"
+				item: {
+					count: 1
+					id: "minecraft:cobblestone"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "62C9F34293A14385"
+					item: { count: 1, id: "minecraft:water_bucket" }
+					type: "item"
+				}
+				{
+					id: "7A427F5F437F8E9E"
+					item: { count: 1, id: "minecraft:lava_bucket" }
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["730A96EFAE7D613A"]
+			id: "2A86EBA05916AE1F"
+			rewards: [{
+				id: "0DEAD2215C676B4B"
+				item: {
+					count: 1
+					id: "minecraft:tuff"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "15475D26EC94A4EE"
+				item: { count: 1, id: "minecraft:tuff" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0152DF3081589EA1"]
+			id: "0638D47995D3DEC6"
+			rewards: [{
+				count: 2
+				id: "7AFB3E8305EE8342"
+				item: {
+					count: 1
+					id: "minecraft:netherrack"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5027C0F37876F442"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(kubejs:netherrack_pebbles)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["730A96EFAE7D613A"]
+			id: "24A027293F265B28"
+			rewards: [{
+				count: 2
+				id: "60F714BE9F99DB4D"
+				item: {
+					count: 1
+					id: "minecraft:deepslate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "040000775368E21E"
+				item: { count: 1, id: "minecraft:deepslate" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6FA106C24A8C23F8"]
+			id: "6CA7DDCCD11B8743"
+			rewards: [{
+				count: 2
+				id: "37A3416AA094ADC9"
+				item: {
+					count: 1
+					id: "minecraft:coal"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2789F1FFF593BDF6"
+				item: { count: 1, id: "minecraft:coal" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"57AFA92AD95F9B63"
+				"398D4AEF0498D041"
+			]
+			id: "6F7CDF246DE8FCCE"
+			rewards: [{
+				count: 2
+				id: "36F66D5CE8CBCEE2"
+				item: {
+					count: 1
+					id: "minecraft:copper_ingot"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "66885F42448E6FC4"
+				item: { count: 1, id: "create:copper_sheet" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
 		}
 	]
 }
