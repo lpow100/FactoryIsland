@@ -64,16 +64,16 @@ ServerEvents.recipes(event => {
   event.recipes.create.splashing('kubejs:geode','minecraft:tuff');
 
   event.recipes.create.milling([
-		CreateItem.of('create:crushed_raw_iron', 0.15),
-		CreateItem.of('create:crushed_raw_zinc', 0.15),
-		CreateItem.of('create:crushed_raw_copper', 0.35),
+		CreateItem.of('create:crushed_raw_iron', 0.45),
+		CreateItem.of('create:crushed_raw_zinc', 0.35),
+		CreateItem.of('create:crushed_raw_copper', 0.55),
 		CreateItem.of('create:crushed_raw_gold', 0.35),
 	], 'kubejs:geode')
   
   event.recipes.create.crushing([
-		CreateItem.of('create:crushed_raw_iron', 0.15),
-		CreateItem.of('create:crushed_raw_zinc', 0.15),
-		CreateItem.of('create:crushed_raw_copper', 0.35),
+		CreateItem.of('create:crushed_raw_iron', 0.45),
+		CreateItem.of('create:crushed_raw_zinc', 0.35),
+		CreateItem.of('create:crushed_raw_copper', 0.55),
 		CreateItem.of('create:crushed_raw_gold', 0.35),
 	], 'kubejs:geode')
 

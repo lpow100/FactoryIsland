@@ -14,7 +14,7 @@
 			image: "moonlight:textures/gui/sprites/media/discord.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 0.5d
+			x: 0.0d
 			y: 1.5d
 		}
 		{
@@ -24,7 +24,17 @@
 			image: "moonlight:textures/gui/sprites/media/ko_fi.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: -0.5d
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			click: "https://github.com/lpow100/FactoryIsland"
+			height: 1.0d
+			hover: ["Github Codebase"]
+			image: "moonlight:textures/gui/sprites/media/github.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
 			y: 1.5d
 		}
 	]
@@ -76,7 +86,7 @@
 				id: "02EAAE946498B49F"
 				type: "checkmark"
 			}]
-			x: 1.5d
+			x: 1.0d
 			y: -1.0d
 		}
 		{
@@ -100,7 +110,7 @@
 				id: "25E364C7DC50DAA6"
 				type: "checkmark"
 			}]
-			x: -1.5d
+			x: -1.0d
 			y: -1.0d
 		}
 		{

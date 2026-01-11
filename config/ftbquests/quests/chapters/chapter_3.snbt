@@ -66,12 +66,9 @@
 					type: "item"
 				}
 				{
-					fluid: {
-						amount: 1000
-						id: "kubejs:mineral_soup"
-					}
-					id: "4349D0CD2FCA5354"
-					type: "fluid"
+					id: "361AB4A6A680378B"
+					item: { count: 1, id: "kubejs:mineral_soup_bucket" }
+					type: "item"
 				}
 			]
 			x: 0.5d
@@ -115,12 +112,9 @@
 			]
 			id: "0A04552BD893F474"
 			tasks: [{
-				fluid: {
-					amount: 1000
-					id: "kubejs:rare_mineral_soup"
-				}
-				id: "00A1ED2CEA7ED030"
-				type: "fluid"
+				id: "4DD319386A504E52"
+				item: { count: 1, id: "kubejs:rare_mineral_soup_bucket" }
+				type: "item"
 			}]
 			x: -1.5d
 			y: -3.0d
@@ -164,7 +158,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -4.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["5916D9E9F241134B"]
@@ -187,7 +181,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: -6.5d
+			y: -7.0d
 		}
 		{
 			dependencies: [
@@ -264,11 +258,11 @@
 					type: "item"
 				}
 			]
-			x: 5.0d
+			x: 5.5d
 			y: -5.0d
 		}
 		{
-			dependencies: ["0152DF3081589EA1"]
+			dependencies: ["0638D47995D3DEC6"]
 			id: "730F656BE5D4AB1C"
 			tasks: [{
 				id: "625F8891105EAF81"
@@ -295,7 +289,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -2.5d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -303,6 +297,14 @@
 				"3D66100C02871C59"
 			]
 			id: "11C1281D2FFE5C17"
+			rewards: [{
+				id: "45A439827D15AF8B"
+				item: {
+					count: 1
+					id: "create:electron_tube"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "60CF65F9136D8A03"
 				item: { count: 1, id: "create:mechanical_crafter" }
@@ -329,7 +331,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -2.5d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -365,10 +367,7 @@
 			y: -3.5d
 		}
 		{
-			dependencies: [
-				"78375148595A5C8D"
-				"2BDE52B4670001D5"
-			]
+			dependencies: ["78375148595A5C8D"]
 			id: "345754CF5AECFB60"
 			rewards: [{
 				count: 2
@@ -393,7 +392,7 @@
 				}
 			]
 			x: 1.5d
-			y: -5.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["11C1281D2FFE5C17"]
@@ -426,6 +425,109 @@
 			}]
 			x: 3.0d
 			y: -5.0d
+		}
+		{
+			dependencies: ["730F656BE5D4AB1C"]
+			id: "07CE1D7F13684D57"
+			rewards: [{
+				count: 2
+				id: "665161FA63ADBD6F"
+				item: {
+					count: 1
+					id: "minecraft:basalt"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "670344FD8D909614"
+				item: { count: 1, id: "minecraft:soul_campfire" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["1766A45F88B66F93"]
+			id: "0E10DBBA60E64A5A"
+			rewards: [{
+				count: 2
+				id: "3D7AA90D1427DF93"
+				item: {
+					count: 1
+					id: "minecraft:glowstone_dust"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D68E84039C99861"
+				item: { count: 1, id: "minecraft:glowstone_dust" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"510D39ED5CC33828"
+				"0E10DBBA60E64A5A"
+				"5003B9BC515E4928"
+			]
+			id: "6F362403DA701CB5"
+			rewards: [
+				{
+					count: 2
+					id: "3E0D22EE358A82D1"
+					item: {
+						count: 1
+						id: "kubejs:rare_mineral_dust"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "52F7F691F9BB10D5"
+					item: {
+						count: 1
+						id: "minecraft:glowstone_dust"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.25d
+			tasks: [{
+				id: "7C22878D2A29F713"
+				item: { count: 1, id: "kubejs:ender_dust" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2BDE52B4670001D5"]
+			id: "510D39ED5CC33828"
+			rewards: [{
+				id: "0900AB830E393DBC"
+				item: {
+					count: 1
+					id: "create:blaze_cake_base"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "018AE1C9147C9BD8"
+					item: { count: 1, id: "create:blaze_cake_base" }
+					type: "item"
+				}
+				{
+					id: "3CBDCD34AA6825CB"
+					item: { count: 1, id: "create:blaze_cake" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -6.0d
 		}
 	]
 }
