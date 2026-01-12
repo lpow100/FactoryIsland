@@ -157,11 +157,8 @@
 				count: 2
 				id: "40896F87AC81BEA7"
 				item: {
-					components: {
-						"ftbquests:missing_item": "kubejs:rare_minerals"
-					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "kubejs:rare_mineral_dust"
 				}
 				type: "item"
 			}]

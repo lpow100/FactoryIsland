@@ -8,10 +8,12 @@
 	chapter.4276F86CDE10A608.title: "Chapter 5: Postgame Age"
 	chapter.4318665C5B015F8C.title: "Chaper 1: Wooden Age"
 	chapter.75CB807C747F0A63.title: "Chapter 4: Ender age"
+	chapter.7E29654F564C7E74.title: "Iron Furnaces"
 	chapter_group.505FEEA3E13F12D8.title: "Main progression"
 	chapter_group.61596045A2515C70.title: "Sidequests"
 	quest.00A6B70FE4091AF7.quest_subtitle: "Mixing can automate past key \"alloys\""
 	quest.0152DF3081589EA1.title: "Hot soup"
+	quest.034F00E51A463519.quest_subtitle: "24 karat kiln"
 	quest.037930C5C7975508.quest_subtitle: "Crafting 4 end dust"
 	quest.05CB609BBE69B2BE.quest_desc: [
 		"Large and small cogs can mesh"
@@ -32,6 +34,7 @@
 	quest.0B5B9DCB16AFEC59.quest_subtitle: "Mix sand and water"
 	quest.0B5B9DCB16AFEC59.title: "Sand crops"
 	quest.0C277BA5F1FA9310.quest_subtitle: "Apply Xp to an amethyst block to make it budding"
+	quest.0DEFA8D4276485D0.quest_subtitle: "Only one of the preivous two is needed"
 	quest.0E10DBBA60E64A5A.quest_subtitle: "Crush or mill a blazing mineral clump"
 	quest.1050B92204B92163.quest_subtitle: "Mix end dust with void compost"
 	quest.11C1281D2FFE5C17.quest_subtitle: "Automatic crafting"
@@ -41,6 +44,7 @@
 	quest.14D4634597458A88.title: "Super XP"
 	quest.15068243F7EF49E1.quest_subtitle: "The best ore you'll find"
 	quest.15068243F7EF49E1.title: "Netherite"
+	quest.15F7F930E0F3089A.quest_subtitle: "Welcome to better furnaces"
 	quest.164CFE09ADB592A0.quest_subtitle: "Better composter"
 	quest.1766A45F88B66F93.quest_subtitle: "Mix a magma block with rare mineral soup"
 	quest.1B4D75E1CB338B57.quest_desc: ["Now you don't have to worry about running out of dirt!"]
@@ -59,9 +63,11 @@
 	quest.25163AFF6B437250.quest_subtitle: "64x THE GENERATORR!!!"
 	quest.2518C98976CF6D37.quest_subtitle: "Press sculk for 4 veins"
 	quest.25ED55E6E2ECB02E.quest_subtitle: "Collect two more skulls"
+	quest.28484AF1D523B02E.quest_desc: ["Plce your new dragons head in front of an cased fan facing the same way it is blowing and watch your encased fan do bulk ending"]
 	quest.28484AF1D523B02E.quest_subtitle: "Mix an imatation dragon head, dragons breath, and enderian shard"
 	quest.28DB3E9125D2489D.title: "Playing with your new toy"
 	quest.2A86EBA05916AE1F.quest_subtitle: "Press 9 stone with lava, Now you have access to infinte tuff"
+	quest.2AC431EE34AFF219.quest_subtitle: "Heres a bit of what you lost, can't recover it all however"
 	quest.2AC80013CD101676.quest_subtitle: "Crush or mill blackstone"
 	quest.2BDA663329D2A52A.quest_subtitle: "Don't forget to grab dragons breath bottles"
 	quest.2BDE52B4670001D5.quest_subtitle: "You now have better millstones, heres some things to crush"
@@ -72,6 +78,7 @@
 	quest.2ED0C57E4BAA8D7D.quest_subtitle: "Press a geode to get amethyst shards"
 	quest.2F265F003C8D01A1.quest_subtitle: "Mix an enderpearl with 1 B of XP while superheated"
 	quest.2F265F003C8D01A1.title: "Enderian Essence"
+	quest.3010899476AFAA05.quest_subtitle: "Shiny"
 	quest.302C9EF62C0C6D82.quest_subtitle: "Press a sculk catalyst to get an echo shard"
 	quest.31C8475C458196DD.quest_subtitle: "Wool takes a lot of string, so crouching can help plants grow"
 	quest.31C8475C458196DD.title: "Wool"
@@ -100,14 +107,18 @@
 	quest.3D79289573C002FA.title: "Welcome to the next step"
 	quest.3E012F13C26E9BB5.quest_desc: ["Any pebble can be turned into the block form with 4 of them"]
 	quest.3E012F13C26E9BB5.title: "Stone Blocks"
+	quest.3E1D117A01B551B5.quest_subtitle: "Your first upgrade!"
 	quest.40A5758D0D4D6A86.quest_subtitle: "Readress packages"
 	quest.40C29D2EA4CE580A.quest_desc: ["The core of the best furnace"]
 	quest.41AF8F5ED9147A77.quest_subtitle: "Provide a redstone signal and pump in fluids to burn them"
+	quest.41CDBBFF6E320A9E.quest_subtitle: "Phatom membrame is from ending with a fan on leather, click on the elytra for its more complex recipe"
+	quest.41CDBBFF6E320A9E.title: "Your own wings"
 	quest.454058ECD6812E94.title: "Infinite Ender Dust"
 	quest.456275981719704D.quest_subtitle: "Milling Tuff (or pebbles) unlocks new ores"
 	quest.465E6BA5D8FAEFE7.quest_subtitle: "Put a geode in a mixer with a heated blaze burner below"
 	quest.465E6BA5D8FAEFE7.title: "Mineral Soup?"
-	quest.493D45A23B10A0A6.quest_subtitle: "Removes fluid from a tank above and can gather some items"
+	quest.4780685789B0D3F6.quest_subtitle: "Now you can make chorus fruit much easier"
+	quest.4780685789B0D3F6.title: "Easy Chorus Fruit"
 	quest.4B8839BFF4C3236C.quest_subtitle: "Thats one hot rod"
 	quest.4D38136BD51E9DBE.quest_subtitle: "Four superheated pebbles for a magma block"
 	quest.4D930E88B9A8598D.quest_subtitle: "Obsidian is made by pouring water over a lava source block"
@@ -118,6 +129,7 @@
 	quest.53C88A4977EF428E.quest_subtitle: "compress liquid XP"
 	quest.54291238107B8A28.quest_subtitle: "Bonemeal underwater blocks to get seagrass, use shears to get the items"
 	quest.544546C98F498397.quest_subtitle: "You might want to automate this"
+	quest.5517A496489942B1.quest_subtitle: "Villagers love this one!"
 	quest.5529F79653E278C9.quest_subtitle: "You will need quartz and brass for this, they are from chapter 3"
 	quest.558E277739D180F6.quest_subtitle: "You can get a beehive by planting trees near flowers"
 	quest.558E277739D180F6.title: "Bees"
@@ -143,11 +155,13 @@
 	quest.5D68891F47E07B25.title: "Iron Furnaces"
 	quest.5DCFD2F28036FEC7.quest_desc: ["Ahhh, your first iron. Now we can truly crack open the create mod"]
 	quest.5DCFD2F28036FEC7.title: "The Andesite Age"
+	quest.5EFEBAEA922C3CA1.quest_subtitle: "Its like the mod name!"
 	quest.5FEC241E226611AD.quest_subtitle: "Craft sculk with redstone and wool to allow it to sense things"
 	quest.62806B364112A40A.quest_desc: ["&lShift&r + &lRight Click&r the ground to gather pebbles"]
 	quest.62806B364112A40A.quest_subtitle: "Gather pebbles from the ground, fill 2x2 with a type of pebbles for a block"
 	quest.62806B364112A40A.title: "Pebbles"
 	quest.62C2F929502483B5.quest_desc: ["If you notice any bugs, or something you think is wrong go to the discord from the link below the welcome quest and let me know!"]
+	quest.636C80C2E8B87A2E.quest_subtitle: "This one came straight from hell"
 	quest.65B99CB5A8CC746F.quest_subtitle: "Your local brewery"
 	quest.66DFBD88907DBD3D.title: "Wash your crushed iron"
 	quest.67920CC007F2B243.quest_subtitle: "Pump more XP into a shrieker to make it spread the sculk"
@@ -156,6 +170,7 @@
 	quest.695AA198E13654CF.quest_subtitle: "Now we are getting expensive!"
 	quest.6AF6228602A2DCED.quest_subtitle: "Your first taste of create"
 	quest.6CA7DDCCD11B8743.quest_subtitle: "Another way to get coal"
+	quest.6DB19C28A749EFBB.quest_subtitle: "The core of infinite smelting power"
 	quest.6E8434FF06E14ABB.quest_desc: [
 		"I want to thank you so much for playing my modpack, I put a lot of time and effort in to this so thanks a lot!"
 		""
@@ -168,6 +183,7 @@
 	quest.6FA106C24A8C23F8.quest_subtitle: "Blasting pebbles allows you to superheat them"
 	quest.6FD88964202489F6.title: "Blaze Burner"
 	quest.7189765109B910E4.quest_desc: ["Quests are not required for this modpack, but are just here to show progression and give some bonus items to help you"]
+	quest.723B37B3E1D732A0.quest_subtitle: "I can see clearly now"
 	quest.730A96EFAE7D613A.quest_desc: ["Finally you can use the create drill to break the cobblestone"]
 	quest.730A96EFAE7D613A.title: "Automating cobblestone"
 	quest.74D8AF7AA127A459.quest_desc: [""]
@@ -189,6 +205,8 @@
 	quest.7924B841E83A3863.quest_subtitle: "Void composting?"
 	quest.793AC8A10794D872.quest_subtitle: "Haunta sculk sensor sculk to imbue the power of lost souls"
 	quest.79AB487DDAC89238.quest_subtitle: "Four blackstone pebbles"
+	quest.7A5818E93F5C354E.quest_subtitle: "Use bulk ending on leather to get phantom membranes"
+	quest.7A5818E93F5C354E.title: "Phantom Membrane"
 	quest.7CA63E15BEC56B4A.quest_subtitle: "Mix mineral soup with dirt"
 	quest.7CF7E7DF58DF3AF8.quest_subtitle: "Double the tuff for 2/3rds the cobbelstone!"
 	quest.7CF7E7DF58DF3AF8.title: "Better tuff recipe"

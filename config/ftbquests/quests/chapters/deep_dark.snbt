@@ -7,6 +7,14 @@
 		id: "minecraft:sculk"
 	}
 	id: "2C38F893943C4BF7"
+	images: [{
+		height: 3.0d
+		image: "minecraft:item/echo_shard"
+		rotation: 45.0d
+		width: 3.0d
+		x: -0.5d
+		y: -3.5d
+	}]
 	order_index: 2
 	quest_links: [ ]
 	quests: [
@@ -28,8 +36,8 @@
 				item: { count: 1, id: "minecraft:sculk" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: -0.5d
+			x: -0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["67A52D9BEA03D07D"]
@@ -59,8 +67,8 @@
 				item: { count: 1, id: "minecraft:sculk_sensor" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: -2.0d
+			x: -0.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["67A52D9BEA03D07D"]
@@ -78,8 +86,8 @@
 				item: { count: 1, id: "minecraft:sculk_vein" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 0.5d
+			x: -0.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["5FEC241E226611AD"]
@@ -98,8 +106,8 @@
 				item: { count: 1, id: "minecraft:sculk_shrieker" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: -3.5d
+			x: -2.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["5FEC241E226611AD"]
@@ -128,7 +136,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -3.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["793AC8A10794D872"]
@@ -158,8 +166,8 @@
 				item: { count: 1, id: "minecraft:sculk_catalyst" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: -4.5d
+			x: -2.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["67920CC007F2B243"]
@@ -179,8 +187,8 @@
 				item: { count: 1, id: "minecraft:echo_shard" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: -6.0d
+			x: -0.5d
+			y: -5.5d
 		}
 	]
 }

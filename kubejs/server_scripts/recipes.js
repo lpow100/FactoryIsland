@@ -69,6 +69,10 @@ ServerEvents.recipes(event => {
 		CreateItem.of('minecraft:coal', 0.3)
 	], 'minecraft:tuff')
 
+  event.remove({id: 'create:crushing/tuff_recycling'});
+  event.remove({id: 'createadditions:crushing/tuff_recycling'});
+  event.remove({id: 'createadditions:crushing/tuff'});
+
   event.shaped('kubejs:rough_andesite_alloy', [
       'AC',
       'CA'
@@ -143,7 +147,7 @@ ServerEvents.recipes(event => {
   event.recipes.create.compacting(Fluid.of("minecraft:water",250),Ingredient.of("#minecraft:leaves",4));
   event.recipes.create.milling("minecraft:dirt","minecraft:coarse_dirt");
 
-  event.remove({id: 'create:milling/gravel'})
+  event.remove({id: 'create:milling/gravel'});
   event.recipes.create.milling("minecraft:sand","minecraft:gravel");
 
   event.recipes.create.splashing('kubejs:geode','minecraft:tuff');
@@ -199,7 +203,8 @@ ServerEvents.recipes(event => {
     Item.of("minecraft:cobbled_deepslate",4)
   ]).heated();
 
-  event.recipes.create.filling('kubejs:rare_mineral_dust',Fluid.of('kubejs:rare_mineral_soup',500));
+  event.recipes.create.milling(Item.of("kubejs:dust",4),Ingredient.of("#chipped:sand"));
+  event.recipes.create.filling('kubejs:rare_mineral_dust',[Fluid.of('kubejs:rare_mineral_soup',500),"kubejs:dust"]);
 
   event.recipes.create.mixing('kubejs:rare_mineral_clump',Fluid.of('kubejs:rare_mineral_soup',1000));
 
@@ -351,6 +356,17 @@ ServerEvents.recipes(event => {
     )
     .transitionalItem(transitional) // Set the transitional item
 
+  
+  ///////////////////////////////////////////////////////////////////
+  // Iron Furnaces
+  ///////////////////////////////////////////////////////////////////
+
+  event.replaceInput(
+    { id: 'ironfurances:rainbow_plating' },
+    'ironfurances:silver_furnace',         
+    'minecraft:furnace'
+  )
+
   ///////////////////////////////////////////////////////////////////
   // Chapter 5
   ///////////////////////////////////////////////////////////////////
@@ -364,5 +380,17 @@ ServerEvents.recipes(event => {
   });
 
   event.recipes.create.mixing("minecraft:dragon_head", ["kubejs:imatation_dragon_head","kubejs:enderian_shard",Fluid.of("create_dragons_plus:dragon_breath")])
+
+  event.recipes.create.mechanical_crafting("minecraft:elytra", [
+    ' SES ',
+    'SS SS',
+    'PS SP',
+    'PP PP',
+    'P   P'
+  ], {
+    P: "minecraft:phantom_membrane",
+    E: "kubejs:enderian_shard",
+    S: "minecraft:shulker_shell"
+  })
 
 })

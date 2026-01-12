@@ -40,7 +40,7 @@
 				item: { count: 1, id: "minecraft:shulker_box" }
 				type: "item"
 			}]
-			x: -0.5d
+			x: -1.0d
 			y: -1.5d
 		}
 		{
@@ -51,7 +51,7 @@
 				item: { count: 1, id: "kubejs:imatation_dragon_head" }
 				type: "item"
 			}]
-			x: 0.5d
+			x: 1.0d
 			y: -1.5d
 		}
 		{
@@ -70,8 +70,100 @@
 				item: { count: 1, id: "minecraft:dragon_head" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: 1.0d
 			y: -3.0d
+		}
+		{
+			dependencies: ["7A5818E93F5C354E"]
+			id: "41CDBBFF6E320A9E"
+			rewards: [
+				{
+					count: 2
+					id: "0BEE3457152031F2"
+					item: {
+						count: 1
+						id: "minecraft:phantom_membrane"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7027B88F91D47066"
+					item: {
+						count: 1
+						id: "minecraft:shulker_shell"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "32D0648DBCA0270E"
+					item: { count: 1, id: "minecraft:phantom_membrane" }
+					type: "item"
+				}
+				{
+					id: "7AA2D84C7850A82B"
+					item: { count: 1, id: "minecraft:elytra" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["28484AF1D523B02E"]
+			id: "7A5818E93F5C354E"
+			rewards: [{
+				count: 2
+				id: "090C0BF025515E73"
+				item: {
+					count: 1
+					id: "minecraft:leather"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "63686B245211CB10"
+					item: { count: 1, id: "minecraft:leather" }
+					type: "item"
+				}
+				{
+					id: "7ED6B63996BCCA41"
+					item: { count: 1, id: "minecraft:phantom_membrane" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["28484AF1D523B02E"]
+			id: "4780685789B0D3F6"
+			rewards: [{
+				count: 2
+				id: "3A36126CC58BF55B"
+				item: {
+					count: 1
+					id: "minecraft:apple"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4CA6AEDC93477D07"
+					item: { count: 1, id: "minecraft:apple" }
+					type: "item"
+				}
+				{
+					id: "3B74F109F3AD5A55"
+					item: { count: 1, id: "minecraft:chorus_fruit" }
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: -4.5d
 		}
 	]
 }

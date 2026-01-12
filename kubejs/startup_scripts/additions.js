@@ -36,6 +36,9 @@ StartupEvents.registry('item', event => {
   event.create('kubejs:imatation_dragon_head')
     .maxStackSize(1)
     .texture('kubejs:item/imatation_dragon_head');
+  event.create('kubejs:dust')
+    .maxStackSize(64)
+    .texture('kubejs:item/dust');
 });
 
 StartupEvents.registry('fluid', event => {

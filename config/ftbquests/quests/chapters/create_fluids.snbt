@@ -252,25 +252,6 @@
 		}
 		{
 			dependencies: ["32D38056F3EAA9FA"]
-			id: "493D45A23B10A0A6"
-			rewards: [{
-				id: "292FA9FA4700058F"
-				item: {
-					count: 1
-					id: "create:fluid_tank"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "726D1630DCDE2BCF"
-				item: { count: 1, id: "create_delete_and_repeat:strainer" }
-				type: "item"
-			}]
-			x: 1.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["32D38056F3EAA9FA"]
 			id: "6946269E04CE42EA"
 			rewards: [{
 				id: "506CE950086D8A2F"
@@ -292,7 +273,7 @@
 			dependencies: ["32D38056F3EAA9FA"]
 			id: "164CFE09ADB592A0"
 			rewards: [{
-				id: "3FB5A4E327DFC208"
+				id: "6D757179A3372B38"
 				item: {
 					count: 1
 					id: "mechanical_botany:compost"
@@ -300,7 +281,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "70732715C758C13A"
+				id: "6ADAA4ECB95BE7E9"
 				item: { count: 1, id: "mechanical_botany:mechanical_composter" }
 				type: "item"
 			}]
@@ -319,7 +300,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "7BCF50DCDABA9FFA"
+				id: "48106E99C161B2A7"
 				item: { count: 1, id: "mechanical_botany:molten_compost_bucket" }
 				type: "item"
 			}]
@@ -344,7 +325,7 @@
 					type: "item"
 				}
 				{
-					id: "380B7B42250CCDC5"
+					id: "38CD841AA53963B1"
 					item: { count: 1, id: "mechanical_botany:void_compost_bucket" }
 					type: "item"
 				}
