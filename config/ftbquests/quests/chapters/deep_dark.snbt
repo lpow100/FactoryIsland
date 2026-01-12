@@ -1,0 +1,186 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "deep_dark"
+	group: "61596045A2515C70"
+	icon: {
+		id: "minecraft:sculk"
+	}
+	id: "2C38F893943C4BF7"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["345754CF5AECFB60"]
+			hide_until_deps_complete: true
+			id: "67A52D9BEA03D07D"
+			rewards: [{
+				id: "027CB1D3CF288511"
+				item: {
+					count: 1
+					id: "minecraft:sculk"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "4EE60C4DBF7B0C36"
+				item: { count: 1, id: "minecraft:sculk" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["67A52D9BEA03D07D"]
+			id: "5FEC241E226611AD"
+			rewards: [
+				{
+					count: 2
+					id: "187845F8429583E9"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7D409AF18CD17748"
+					item: {
+						count: 1
+						id: "minecraft:white_wool"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "06CAE037648FC7AD"
+				item: { count: 1, id: "minecraft:sculk_sensor" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["67A52D9BEA03D07D"]
+			id: "2518C98976CF6D37"
+			rewards: [{
+				id: "2E8F0037B88D1B33"
+				item: {
+					count: 1
+					id: "minecraft:sculk"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "20EC8F6542A44817"
+				item: { count: 1, id: "minecraft:sculk_vein" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5FEC241E226611AD"]
+			id: "793AC8A10794D872"
+			rewards: [{
+				count: 2
+				id: "33A59ADF953F2D46"
+				item: {
+					count: 1
+					id: "minecraft:sculk"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5619388E599183E0"
+				item: { count: 1, id: "minecraft:sculk_shrieker" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5FEC241E226611AD"]
+			id: "2142E70F0A295785"
+			rewards: [
+				{
+					id: "686BCE03C84F401E"
+					item: {
+						count: 1
+						id: "minecraft:sculk"
+					}
+					type: "item"
+				}
+				{
+					id: "5701CB0293ED0EB0"
+					item: {
+						count: 1
+						id: "minecraft:amethyst_shard"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7AB0FB765441DDC9"
+				item: { count: 1, id: "minecraft:calibrated_sculk_sensor" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["793AC8A10794D872"]
+			id: "67920CC007F2B243"
+			rewards: [
+				{
+					count: 2
+					id: "3F9C3011D32AA470"
+					item: {
+						count: 1
+						id: "minecraft:sculk"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "026A00CBDF5CFAFE"
+					item: {
+						count: 1
+						id: "create:experience_nugget"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "69065210C8E9C9BE"
+				item: { count: 1, id: "minecraft:sculk_catalyst" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["67920CC007F2B243"]
+			id: "302C9EF62C0C6D82"
+			rewards: [{
+				count: 3
+				id: "7467BBA88946FF96"
+				item: {
+					count: 1
+					id: "minecraft:sculk"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "7A20615ACDD30FE8"
+				item: { count: 1, id: "minecraft:echo_shard" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+	]
+}

@@ -14,7 +14,7 @@
     "minecraft:the_nether": {
       "allow_list": false,
       "elements": []
-    }
+    },
   },
   
   // A list of carvers for each dimension.

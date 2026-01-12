@@ -2,7 +2,7 @@
   // If the last player leaves a team, the team will automatically be deleted
   // The island and all its blocks remain at this position!
   // This position will not be used for any new team, only the remaining team will be deleted.
-  "deleteTeamsAutomatically": false,
+  "deleteTeamsAutomatically": true,
   
   // You may enable this when you encounter problems with game profiles
   "forceUnsecureProfileNames": false,

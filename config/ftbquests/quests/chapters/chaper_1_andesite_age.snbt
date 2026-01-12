@@ -11,6 +11,8 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["0486E019EAA3D814"]
+			hide_until_deps_complete: true
 			id: "62806B364112A40A"
 			rewards: [
 				{
@@ -100,6 +102,8 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["0486E019EAA3D814"]
+			hide_until_deps_complete: true
 			id: "337556D5EA7EFC1D"
 			rewards: [{
 				id: "628EB2DC0ABC70D4"
@@ -111,7 +115,7 @@
 			}]
 			tasks: [{
 				id: "25C84157C99C8D4D"
-				item: { count: 1, id: "minecraft:oak_log" }
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:logs)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 1.0d
@@ -317,6 +321,8 @@
 			y: -5.0d
 		}
 		{
+			dependencies: ["0486E019EAA3D814"]
+			hide_until_deps_complete: true
 			id: "74F82682E5633A55"
 			rewards: [{
 				count: 2
@@ -360,6 +366,22 @@
 					}
 					type: "item"
 				}
+				{
+					id: "3B0301C5911FABB7"
+					item: {
+						count: 1
+						id: "minecraft:pumpkin_seeds"
+					}
+					type: "item"
+				}
+				{
+					id: "2BCB495348CEC997"
+					item: {
+						count: 1
+						id: "minecraft:melon_seeds"
+					}
+					type: "item"
+				}
 			]
 			tasks: [
 				{
@@ -370,6 +392,16 @@
 				{
 					id: "1E31F1EDEBD2CE40"
 					item: { count: 1, id: "supplementaries:flax_seeds" }
+					type: "item"
+				}
+				{
+					id: "0754F2821BDB4742"
+					item: { count: 1, id: "minecraft:pumpkin_seeds" }
+					type: "item"
+				}
+				{
+					id: "2F43AB38D46AB3C3"
+					item: { count: 1, id: "minecraft:melon_seeds" }
 					type: "item"
 				}
 			]

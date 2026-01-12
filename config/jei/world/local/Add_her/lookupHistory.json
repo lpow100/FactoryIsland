@@ -1,0 +1,5 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"create:encased_fan"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:dragon_head"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

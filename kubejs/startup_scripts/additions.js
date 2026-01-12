@@ -22,8 +22,20 @@ StartupEvents.registry('item', event => {
     .maxStackSize(64)
     .texture('kubejs:item/ender_dust');
   event.create('enderian_shard')
-    .maxStackSize(64)
+    .maxStackSize(16)
     .texture('kubejs:item/enderian_shard');
+  event.create('incomplete_ender_portal_frame')
+    .maxStackSize(1)
+    .texture('kubejs:item/incomplete_ender_portal_frame');
+  event.create('kubejs:incomplete_netherite_scrap')
+    .maxStackSize(1)
+    .texture('kubejs:item/incomplete_netherite_scrap');
+  event.create('kubejs:incomplete_soul_netherite_scrap')
+    .maxStackSize(1)
+    .texture('kubejs:item/incomplete_soul_netherite_scrap');
+  event.create('kubejs:imatation_dragon_head')
+    .maxStackSize(1)
+    .texture('kubejs:item/imatation_dragon_head');
 });
 
 StartupEvents.registry('fluid', event => {

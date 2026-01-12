@@ -1,0 +1,11 @@
+[
+  {"version":2},
+  {"recipe":"kubejs:kjs/create_millstone","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"recipe":"create:crafting/kinetics/millstone","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"recipe":"create:crafting/kinetics/whisk","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"ingredient":{"id":"create:hand_crank"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create:goggles"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"havenpebbles:tuff_pebble"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:campfire"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:sand"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

@@ -71,7 +71,7 @@
 					type: "item"
 				}
 			]
-			x: 0.5d
+			x: -0.5d
 			y: -1.0d
 		}
 		{
@@ -102,7 +102,7 @@
 				item: { count: 1, id: "create:brass_ingot" }
 				type: "item"
 			}]
-			x: 2.5d
+			x: 4.0d
 			y: -1.5d
 		}
 		{
@@ -116,19 +116,28 @@
 				item: { count: 1, id: "kubejs:rare_mineral_soup_bucket" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: -3.0d
+			x: -2.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["7629C8A5A897A3C6"]
 			id: "544546C98F498397"
+			rewards: [{
+				count: 2
+				id: "05A7DFF86A678646"
+				item: {
+					count: 1
+					id: "minecraft:cobbled_deepslate"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "49D4E6B504F67542"
 				item: { count: 1, id: "minecraft:cobbled_deepslate" }
 				type: "item"
 			}]
-			x: -2.5d
-			y: -2.0d
+			x: -3.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["0A04552BD893F474"]
@@ -138,30 +147,11 @@
 				item: { count: 1, id: "kubejs:rare_mineral_clump" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: -5.0d
-		}
-		{
-			dependencies: ["0A04552BD893F474"]
-			id: "78375148595A5C8D"
-			rewards: [{
-				id: "19950BCF3A33B3DA"
-				item: {
-					count: 1
-					id: "kubejs:rare_mineral_soup_bucket"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "79BEE65DD3336421"
-				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(kubejs:rare_mineral_ore)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-				type: "item"
-			}]
 			x: 0.0d
 			y: -2.5d
 		}
 		{
-			dependencies: ["5916D9E9F241134B"]
+			dependencies: ["0A04552BD893F474"]
 			id: "5003B9BC515E4928"
 			rewards: [{
 				count: 2
@@ -180,8 +170,8 @@
 				item: { count: 1, id: "kubejs:rare_mineral_dust" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: -7.0d
+			x: 0.0d
+			y: -6.5d
 		}
 		{
 			dependencies: [
@@ -222,17 +212,6 @@
 			]
 			x: 2.0d
 			y: -7.5d
-		}
-		{
-			dependencies: ["465E6BA5D8FAEFE7"]
-			id: "4095C0961543466B"
-			tasks: [{
-				id: "176BF0B4C84E9AF1"
-				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(kubejs:pebble)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-				type: "item"
-			}]
-			x: -0.5d
-			y: -1.0d
 		}
 		{
 			dependencies: ["51A539323B472B4B"]
@@ -288,7 +267,7 @@
 				item: { count: 1, id: "kubejs:blazing_mineral_clump" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: -0.5d
 			y: -4.0d
 		}
 		{
@@ -310,7 +289,7 @@
 				item: { count: 1, id: "create:mechanical_crafter" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 3.5d
 			y: -4.0d
 		}
 		{
@@ -336,7 +315,7 @@
 		{
 			dependencies: [
 				"2171F237FBF0D63E"
-				"78375148595A5C8D"
+				"6A3C8D62EC096E9B"
 			]
 			id: "3D66100C02871C59"
 			rewards: [
@@ -363,11 +342,11 @@
 				item: { count: 1, id: "create:rose_quartz" }
 				type: "item"
 			}]
-			x: 2.0d
+			x: 2.5d
 			y: -3.5d
 		}
 		{
-			dependencies: ["78375148595A5C8D"]
+			dependencies: ["6A3C8D62EC096E9B"]
 			id: "345754CF5AECFB60"
 			rewards: [{
 				count: 2
@@ -386,13 +365,13 @@
 					type: "item"
 				}
 				{
-					id: "13EF01DDE72A26B2"
-					item: { count: 1, id: "sophisticatedcore:xp_bucket" }
+					id: "13E9CF3BE28D768D"
+					item: { count: 1, id: "create_enchantment_industry:experience_bucket" }
 					type: "item"
 				}
 			]
-			x: 1.5d
-			y: -2.0d
+			x: 2.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["11C1281D2FFE5C17"]
@@ -423,11 +402,14 @@
 				item: { count: 1, id: "create:crushing_wheel" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 3.5d
 			y: -5.0d
 		}
 		{
-			dependencies: ["730F656BE5D4AB1C"]
+			dependencies: [
+				"2AC80013CD101676"
+				"730F656BE5D4AB1C"
+			]
 			id: "07CE1D7F13684D57"
 			rewards: [{
 				count: 2
@@ -439,8 +421,8 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "670344FD8D909614"
-				item: { count: 1, id: "minecraft:soul_campfire" }
+				id: "6EEDB373A95A2424"
+				item: { count: 1, id: "minecraft:soul_sand" }
 				type: "item"
 			}]
 			x: 4.0d
@@ -528,6 +510,223 @@
 			]
 			x: 3.0d
 			y: -6.0d
+		}
+		{
+			dependencies: ["6FD88964202489F6"]
+			id: "4B8839BFF4C3236C"
+			rewards: [{
+				id: "77D666EE60ACCDAD"
+				item: {
+					count: 1
+					id: "minecraft:blaze_powder"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "04767B304333DB2F"
+				item: { count: 1, id: "minecraft:blaze_rod" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4B8839BFF4C3236C"]
+			id: "65B99CB5A8CC746F"
+			rewards: [{
+				count: 2
+				id: "73DE972418848BCE"
+				item: {
+					count: 1
+					id: "minecraft:blaze_powder"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6C08709E1F9F58A6"
+				item: { count: 1, id: "minecraft:brewing_stand" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["465E6BA5D8FAEFE7"]
+			id: "7CF7E7DF58DF3AF8"
+			rewards: [{
+				count: 6
+				id: "563A38DD54220C11"
+				item: {
+					count: 1
+					id: "minecraft:cobblestone"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "77485000C65CA5DE"
+				item: { count: 1, id: "minecraft:tuff" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5916D9E9F241134B"]
+			id: "6A3C8D62EC096E9B"
+			tasks: [{
+				id: "30773C7AEB3C6E10"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(kubejs:rare_mineral_ore)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["345754CF5AECFB60"]
+			id: "0C277BA5F1FA9310"
+			rewards: [{
+				count: 2
+				id: "359EA6DC6D522174"
+				item: {
+					count: 1
+					id: "minecraft:amethyst_shard"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2CE6D097F25B0360"
+				item: { count: 1, id: "minecraft:budding_amethyst" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["465E6BA5D8FAEFE7"]
+			id: "7CA63E15BEC56B4A"
+			rewards: [{
+				id: "1E8E7589053585B9"
+				item: {
+					count: 1
+					id: "minecraft:dirt"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5A3E62E05A5A7F85"
+					item: { count: 1, id: "minecraft:pitcher_pod" }
+					type: "item"
+				}
+				{
+					id: "6DB43B0203D3E475"
+					item: { count: 1, id: "minecraft:torchflower_seeds" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2BDE52B4670001D5"]
+			id: "761464F1D9002E07"
+			rewards: [{
+				count: 3
+				id: "612672AE782768B6"
+				item: {
+					count: 1
+					id: "minecraft:dirt"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "69CB71BB30FD1B8C"
+					item: { count: 1, id: "minecraft:cocoa_beans" }
+					type: "item"
+				}
+				{
+					id: "68092148EA7B6BA4"
+					item: { count: 1, id: "minecraft:beetroot_seeds" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6FD88964202489F6"]
+			id: "25ED55E6E2ECB02E"
+			rewards: [{
+				id: "24A2D8A08E11714D"
+				item: {
+					count: 1
+					id: "minecraft:soul_sand"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5426C2DD0B56E26A"
+				item: { count: 1, id: "minecraft:wither_skeleton_skull" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["25ED55E6E2ECB02E"]
+			id: "210CC52B480F58A1"
+			rewards: [{
+				id: "68ADA79CE3A6928A"
+				item: {
+					count: 1
+					id: "minecraft:wither_rose"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 3L
+					id: "1499BB1398B42B09"
+					item: { count: 1, id: "minecraft:wither_skeleton_skull" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "2D54C21C416625AE"
+					item: { count: 1, id: "minecraft:soul_sand" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["210CC52B480F58A1"]
+			id: "0D7C55EE145506D6"
+			rewards: [{
+				id: "7AB1D78C65BFD45B"
+				item: {
+					count: 1
+					id: "minecraft:wither_skeleton_skull"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:wither"
+				icon: {
+					components: {
+						"!ftbquests:icon": { }
+						"ftbquests:entity_face": "minecraft:wither"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "310CCD7D268864C4"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.0d
+			y: 3.5d
 		}
 	]
 }

@@ -3,11 +3,15 @@
 	default_quest_shape: ""
 	filename: "chapter_4_the_end_age"
 	group: "505FEEA3E13F12D8"
+	icon: {
+		id: "kubejs:ender_dust"
+	}
 	id: "75CB807C747F0A63"
 	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["6F362403DA701CB5"]
 			id: "51AC8685609D21DB"
 			rewards: [{
 				id: "527EAC248EC8A3F3"
@@ -24,7 +28,7 @@
 				item: { count: 1, id: "kubejs:ender_dust" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: 1.0d
 			y: 0.0d
 		}
 		{
@@ -64,10 +68,13 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -1.0d
+			y: -2.5d
 		}
 		{
-			dependencies: ["3A9BEFA564C0432E"]
+			dependencies: [
+				"3A9BEFA564C0432E"
+				"740A98592C2CFD2C"
+			]
 			id: "2F265F003C8D01A1"
 			rewards: [{
 				id: "4EBB9606689A1807"
@@ -116,7 +123,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -2.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["4BFB4CF485771439"]
@@ -135,20 +142,28 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -1.0d
+			y: -1.5d
 		}
 		{
-			dependencies: ["2F265F003C8D01A1"]
+			dependencies: [
+				"2F265F003C8D01A1"
+				"7988F228F4FCD861"
+			]
 			id: "0348FE0DF595183F"
 			tasks: [{
 				id: "572D6847485799E0"
 				item: { count: 1, id: "kubejs:enderian_shard" }
 				type: "item"
 			}]
-			x: -1.0d
+			x: -0.5d
 			y: -4.0d
 		}
 		{
+			dependencies: [
+				"53EA4FDA886F621E"
+				"0348FE0DF595183F"
+				"037930C5C7975508"
+			]
 			id: "2BDA663329D2A52A"
 			rewards: [{
 				id: "03D9407F643E3261"
@@ -163,8 +178,8 @@
 				item: { count: 1, id: "minecraft:end_portal_frame" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: -5.0d
+			x: 1.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["2BDA663329D2A52A"]
@@ -174,23 +189,25 @@
 				id: "22B8E2859885204E"
 				type: "toast"
 			}]
+			shape: "gear"
+			size: 1.25d
 			tasks: [{
 				entity: "minecraft:ender_dragon"
 				id: "0FA333A844D1D63B"
 				type: "kill"
 				value: 1L
 			}]
-			x: 0.0d
-			y: -6.5d
+			x: 1.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["77E56F395F93E767"]
 			id: "6E8434FF06E14ABB"
 			rewards: [{
-				id: "57F912EFD559B732"
+				id: "3E05DA78AC9F016D"
 				item: {
 					count: 1
-					id: "minecraft:elytra"
+					id: "minecraft:netherite_block"
 				}
 				type: "item"
 			}]
@@ -198,8 +215,69 @@
 				id: "27B93C3FF225DD36"
 				type: "checkmark"
 			}]
-			x: 0.0d
-			y: -8.0d
+			x: 1.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["14D4634597458A88"]
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			id: "53EA4FDA886F621E"
+			tasks: [{
+				id: "039CC51E6E5FB79C"
+				item: { count: 1, id: "create_enchantment_industry:super_experience_block" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["345754CF5AECFB60"]
+			id: "740A98592C2CFD2C"
+			tasks: [{
+				id: "1C7A209E909B7D55"
+				item: { count: 1, id: "create_enchantment_industry:experience_bucket" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["302C9EF62C0C6D82"]
+			id: "7988F228F4FCD861"
+			tasks: [{
+				id: "7D03787536D0F115"
+				item: { count: 1, id: "minecraft:echo_shard" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["51AC8685609D21DB"]
+			id: "1050B92204B92163"
+			rewards: [{
+				id: "72D884829730066A"
+				item: {
+					count: 1
+					id: "minecraft:chorus_fruit"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0CB989E12C36B2D9"
+					item: { count: 1, id: "minecraft:chorus_fruit" }
+					type: "item"
+				}
+				{
+					id: "2836A90DEB66B33E"
+					item: { count: 1, id: "minecraft:chorus_flower" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -1.5d
 		}
 	]
 }

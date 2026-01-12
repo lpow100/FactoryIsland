@@ -16,7 +16,7 @@
 		x: -0.5d
 		y: -3.5d
 	}]
-	order_index: 2
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
@@ -230,6 +230,127 @@
 			}]
 			x: -2.0d
 			y: -3.0d
+		}
+		{
+			dependencies: ["32D38056F3EAA9FA"]
+			id: "41AF8F5ED9147A77"
+			rewards: [{
+				id: "7E470DF34CE5B1A7"
+				item: {
+					count: 1
+					id: "minecraft:lever"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "32562DF944CA564B"
+				item: { count: 1, id: "create_delete_and_repeat:fluid_voider" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["32D38056F3EAA9FA"]
+			id: "493D45A23B10A0A6"
+			rewards: [{
+				id: "292FA9FA4700058F"
+				item: {
+					count: 1
+					id: "create:fluid_tank"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "726D1630DCDE2BCF"
+				item: { count: 1, id: "create_delete_and_repeat:strainer" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["32D38056F3EAA9FA"]
+			id: "6946269E04CE42EA"
+			rewards: [{
+				id: "506CE950086D8A2F"
+				item: {
+					count: 1
+					id: "minecraft:water_bucket"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "13B96B0253144CD7"
+				item: { count: 1, id: "mechanical_botany:mechanical_insolator" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["32D38056F3EAA9FA"]
+			id: "164CFE09ADB592A0"
+			rewards: [{
+				id: "3FB5A4E327DFC208"
+				item: {
+					count: 1
+					id: "mechanical_botany:compost"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "70732715C758C13A"
+				item: { count: 1, id: "mechanical_botany:mechanical_composter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["164CFE09ADB592A0"]
+			id: "20D0630A57EB3327"
+			rewards: [{
+				id: "5F524F2A43C0BB2D"
+				item: {
+					count: 1
+					id: "minecraft:lava_bucket"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7BCF50DCDABA9FFA"
+				item: { count: 1, id: "mechanical_botany:molten_compost_bucket" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["164CFE09ADB592A0"]
+			id: "7924B841E83A3863"
+			rewards: [{
+				id: "0CB0ACF3DF742248"
+				item: {
+					count: 1
+					id: "create:powdered_obsidian"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0A78AFC1A79E2615"
+					item: { count: 1, id: "create:powdered_obsidian" }
+					type: "item"
+				}
+				{
+					id: "380B7B42250CCDC5"
+					item: { count: 1, id: "mechanical_botany:void_compost_bucket" }
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 3.5d
 		}
 	]
 }

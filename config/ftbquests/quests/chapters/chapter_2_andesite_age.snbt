@@ -173,8 +173,8 @@
 					type: "item"
 				}
 			]
-			x: -1.5d
-			y: -0.5d
+			x: -2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["78110B0637367E46"]
@@ -192,7 +192,7 @@
 				item: { count: 1, id: "kubejs:superheated_pebble" }
 				type: "item"
 			}]
-			x: -2.5d
+			x: -2.0d
 			y: -1.5d
 		}
 		{
@@ -296,8 +296,8 @@
 				id: "13F6C10D013C3A8F"
 				type: "dimension"
 			}]
-			x: -0.5d
-			y: -7.0d
+			x: -1.875d
+			y: -7.5d
 		}
 		{
 			dependencies: ["6FA106C24A8C23F8"]
@@ -316,7 +316,7 @@
 				item: { count: 1, id: "minecraft:magma_block" }
 				type: "item"
 			}]
-			x: -2.5d
+			x: -2.0d
 			y: -3.0d
 		}
 		{
@@ -451,10 +451,7 @@
 			y: -4.5d
 		}
 		{
-			dependencies: [
-				"0152DF3081589EA1"
-				"28DB3E9125D2489D"
-			]
+			dependencies: ["0152DF3081589EA1"]
 			id: "5883F199F41C1E15"
 			rewards: [{
 				count: 2
@@ -470,8 +467,8 @@
 				item: { count: 1, id: "create:empty_blaze_burner" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: -5.0d
+			x: -1.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["3D511503A7F274B4"]
@@ -481,8 +478,8 @@
 				item: { count: 1, id: "create:mechanical_drill" }
 				type: "item"
 			}]
-			x: -4.5d
-			y: -2.5d
+			x: -5.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["0152DF3081589EA1"]
@@ -508,7 +505,7 @@
 					type: "item"
 				}
 			]
-			x: -3.5d
+			x: -4.0d
 			y: -3.5d
 		}
 		{
@@ -527,8 +524,8 @@
 				item: { count: 1, id: "minecraft:tuff" }
 				type: "item"
 			}]
-			x: -5.0d
-			y: -1.0d
+			x: -7.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["0152DF3081589EA1"]
@@ -547,8 +544,8 @@
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(kubejs:netherrack_pebbles)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -3.5d
-			y: -5.5d
+			x: -3.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["730A96EFAE7D613A"]
@@ -587,8 +584,8 @@
 				item: { count: 1, id: "minecraft:coal" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: -2.5d
+			x: -3.5d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -613,6 +610,91 @@
 			}]
 			x: 1.5d
 			y: -1.0d
+		}
+		{
+			dependencies: ["0638D47995D3DEC6"]
+			id: "79AB487DDAC89238"
+			rewards: [{
+				count: 2
+				id: "18197DB33E2CE9A4"
+				item: {
+					count: 1
+					id: "minecraft:blackstone"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4B41E4EBA5927E1E"
+				item: { count: 1, id: "minecraft:blackstone" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["79AB487DDAC89238"]
+			id: "2AC80013CD101676"
+			rewards: [{
+				id: "0018AC42DC8C609B"
+				item: {
+					count: 1
+					id: "minecraft:soul_sand"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2B84D2CDFE171379"
+				item: { count: 1, id: "minecraft:soul_sand" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5D5FB8D84D138489"]
+			id: "2ED0C57E4BAA8D7D"
+			rewards: [{
+				id: "46B993B278718129"
+				item: {
+					count: 1
+					id: "minecraft:amethyst_shard"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "77F912826317ABB5"
+				item: { count: 1, id: "minecraft:amethyst_shard" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["00A6B70FE4091AF7"]
+			id: "0B5B9DCB16AFEC59"
+			rewards: [{
+				count: 2
+				id: "0ACDA38F6B325D11"
+				item: {
+					count: 1
+					id: "minecraft:sand"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0E2DC68E65189218"
+					item: { count: 1, id: "minecraft:sugar_cane" }
+					type: "item"
+				}
+				{
+					id: "6721A55E8A235118"
+					item: { count: 1, id: "minecraft:cactus" }
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -5.0d
 		}
 	]
 }

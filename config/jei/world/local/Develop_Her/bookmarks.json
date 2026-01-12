@@ -1,0 +1,5 @@
+[
+  {"version":2},
+  {"ingredient":{"id":"minecraft:torchflower_seeds"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:pitcher_pod"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

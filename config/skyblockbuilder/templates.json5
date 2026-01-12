@@ -57,6 +57,22 @@
       "west": [],
       "north": [],
       "east": []
+    },
+    "Classic skyblock (Without Chest)": {
+      "south": [],
+      "west": [
+        [ 4, 3, 1 ]
+      ],
+      "north": [],
+      "east": []
+    },
+    "Farmers Paradise": {
+      "south": [],
+      "west": [],
+      "north": [
+        [ 4, 3, 7 ]
+      ],
+      "east": []
     }
   },
   
@@ -101,25 +117,25 @@
     },
     {
       "name": "classic skyblock (without chest)",
-      "file": "classic skyblock (without chest).nbt",
+      "file": "classic skyblock (without chest)_1.nbt",
       "spawns": {
         "south": [],
-        "west": [],
-        "north": [
-          [ 1, 3, 4 ]
+        "west": [
+          [ 4, 3, 1 ]
         ],
+        "north": [],
         "east": []
       }
     },
     {
-      "name": "welcome",
-      "file": "welcome.nbt",
+      "name": "farmers paradise",
+      "file": "farmers paradise_1.nbt",
       "spawns": {
-        "south": [
-          [ 4, 3, 3 ]
-        ],
+        "south": [],
         "west": [],
-        "north": [],
+        "north": [
+          [ 4, 3, 7 ]
+        ],
         "east": []
       }
     }
