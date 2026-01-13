@@ -1,0 +1,16 @@
+filename = 'rightclickharvest-neoforge-4.6.0+1.21.1.jar'
+name = 'RightClickHarvest'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '2aa224b18bce8ceabf25cb57cd9c1406d3200f3cb7181896a4f4d1e0d61b3cf3082a77021c06fe59b838539fe401f3e5920c960bcf9732947a5262a5b37abcb2'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Cnejf5xM/versions/fVhkJu1j/rightclickharvest-neoforge-4.6.0%2B1.21.1.jar'
+
+[update.modrinth]
+mod-id = 'Cnejf5xM'
+version = 'fVhkJu1j'

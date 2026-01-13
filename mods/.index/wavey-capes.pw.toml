@@ -1,0 +1,16 @@
+filename = 'waveycapes-neoforge-1.8.2-mc1.21.1.jar'
+name = 'Wavey Capes'
+side = 'client'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'd0b9cfbfa2bd4c291ff088abaaa8b75a0c89ce16c572e433d81f765522b6907e1821fcff8d6ed62f2e083bffd9d6832c10a23b48fd195d8d1e29d830805f3aae'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/kYuIpRLv/versions/amiXJHmn/waveycapes-neoforge-1.8.2-mc1.21.1.jar'
+
+[update.modrinth]
+mod-id = 'kYuIpRLv'
+version = 'amiXJHmn'

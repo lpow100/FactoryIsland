@@ -1,0 +1,17 @@
+filename = 'DefaultWorldType-1.21-5.0.4.jar'
+name = 'Default World Type'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21', '1.21.1', '1.21.1', '1.21.2', '1.21.2' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '1.21-5.0.4'
+
+[download]
+hash = '6d862519baa92d08dfb31fd64ee9b3e1457f78e189eb1843f5fb91051603abd13ec64610c0597247a4a2badc8f144002079fda6890dc6d6142fdf09ad5137408'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/kZvO1mDq/versions/CCrwlupr/DefaultWorldType-1.21-5.0.4.jar'
+
+[update.modrinth]
+mod-id = 'kZvO1mDq'
+version = 'CCrwlupr'

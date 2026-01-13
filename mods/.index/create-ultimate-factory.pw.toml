@@ -1,0 +1,16 @@
+filename = 'create_ultimate_factory-2.2.2-neoforge-1.21.1.jar'
+name = 'Create: Ultimate Factory'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '292f3112d0baaed63d065fa22b9df081fcd99e8162f2774e87292ea81b22ad5ac94ff7f1934ba3707aafd347cff863166f77fcdee3541a40cd54ef8ee7a68d57'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/N9QToVpw/versions/4CYo7mOl/create_ultimate_factory-2.2.2-neoforge-1.21.1.jar'
+
+[update.modrinth]
+mod-id = 'N9QToVpw'
+version = '4CYo7mOl'

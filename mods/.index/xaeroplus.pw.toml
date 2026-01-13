@@ -1,0 +1,16 @@
+filename = 'XaeroPlus-2.30.3+neoforge-1.21.1-WM1.40.6-MM25.3.5.jar'
+name = 'XaeroPlus'
+side = 'client'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '520757441f662aabca3287ae3d99afb362b28e0be7d50a67db5476c3876154fba40c4198542975cbdf0efe278e76193a0b75ca4fd0de48a0351cca9bec7eda65'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/EnPUzSTg/versions/J5Er2YZy/XaeroPlus-2.30.3%2Bneoforge-1.21.1-WM1.40.6-MM25.3.5.jar'
+
+[update.modrinth]
+mod-id = 'EnPUzSTg'
+version = 'J5Er2YZy'

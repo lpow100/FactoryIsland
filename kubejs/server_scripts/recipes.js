@@ -362,8 +362,8 @@ ServerEvents.recipes(event => {
   ///////////////////////////////////////////////////////////////////
 
   event.replaceInput(
-    { id: 'ironfurances:rainbow_plating' },
-    'ironfurances:silver_furnace',         
+    { id: 'ironfurnaces:rainbow_plating' },
+    'ironfurnaces:silver_furnace',         
     'minecraft:furnace'
   )
 

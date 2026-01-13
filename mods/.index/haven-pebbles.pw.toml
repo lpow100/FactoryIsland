@@ -1,0 +1,16 @@
+filename = 'HavenPebbles-NeoForge-1.21.1-1.0.8.jar'
+name = 'Haven Pebbles'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1', '1.21.2', '1.21.3', '1.21.4' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '7f72133c22cf6d58895ea41f8dab87a06f34e47a1453af4f22dcdcf1941a1bd5d8470af4cb35b4081b89864f05c0e8072bc0e8721f764c79ea3fef6ced7bf6bf'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/543H5KuB/versions/7f7YaPF2/HavenPebbles-NeoForge-1.21.1-1.0.8.jar'
+
+[update.modrinth]
+mod-id = '543H5KuB'
+version = '7f7YaPF2'

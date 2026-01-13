@@ -1,0 +1,16 @@
+filename = 'generatorgalore-1.21.1-1.3.4.jar'
+name = 'Generator Galore'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '7663c9ba22ad22ed27633a5a9af5eaab25dc59f9e937fc649a69520c90f7f2562a470909d68c6a32305a75b8243c8fc7009f55ced43563484f3ee268845c48b8'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/blEO0qto/versions/nC6nfixg/generatorgalore-1.21.1-1.3.4.jar'
+
+[update.modrinth]
+mod-id = 'blEO0qto'
+version = 'nC6nfixg'

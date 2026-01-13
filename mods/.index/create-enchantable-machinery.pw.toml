@@ -1,0 +1,16 @@
+filename = 'createenchantablemachinery-3.4.3+mc1.21.1-neoforge.jar'
+name = 'Create: Enchantable Machinery'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'd6647fd2d9a142baf9539b7a0ac0dd5a0f021e8744878a071dd955542d4133d4d7e04a2771509c84a8d8f50383faf538af489e95e4be34279f9f8edccba51a07'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/eqrvp4NK/versions/Um84kCGW/createenchantablemachinery-3.4.3%2Bmc1.21.1-neoforge.jar'
+
+[update.modrinth]
+mod-id = 'eqrvp4NK'
+version = 'Um84kCGW'

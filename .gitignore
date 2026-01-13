@@ -1,0 +1,15 @@
+*
+
+!kubejs/
+!kubejs/**
+!local/
+!local/kubejs/
+!local/kubejs/**
+!config/
+!config/**
+!defaultconfigs/
+!defaultconfigs/**
+!readme.md
+!.gitignore
+!mods/
+!mods/**

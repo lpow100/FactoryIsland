@@ -1,0 +1,16 @@
+filename = 'UniLib-1.2.0+1.21.1-neoforge.jar'
+name = 'UniLib'
+side = 'client'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '8407450f9d007e25ad0a3b5c6bba909945f4c6fd6d4c56283af2004bdbb9566c53af2c95b6707523343681a5d0521fe05a3a0ffe8797ea1cd18e197633f6bfa1'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/nT86WUER/versions/ttMoPNqh/UniLib-1.2.0%2B1.21.1-neoforge.jar'
+
+[update.modrinth]
+mod-id = 'nT86WUER'
+version = 'ttMoPNqh'

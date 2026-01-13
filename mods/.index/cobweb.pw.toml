@@ -1,0 +1,17 @@
+filename = 'cobweb-neoforge-1.21-1.4.0.jar'
+name = 'Cobweb'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21', '1.21.1', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.4.0'
+
+[download]
+hash = '0d258ce908e6c337bfc66452c90037e4dfe871f77da32297a108b7a9ef94d178007b1f66fa1dfda4d3e68e31755ae19636f15098da6ccfc25b2a46b4bf092248'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/dQcfqGbl/versions/c10AZba0/cobweb-neoforge-1.21-1.4.0.jar'
+
+[update.modrinth]
+mod-id = 'dQcfqGbl'
+version = 'c10AZba0'

@@ -272,6 +272,15 @@
 			dependencies: ["636C80C2E8B87A2E"]
 			hide_until_deps_complete: true
 			id: "0A395B164AA90763"
+			rewards: [{
+				count: 8
+				id: "7F2F76A2CC0B78C3"
+				item: {
+					count: 1
+					id: "minecraft:furnace"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3AEFB4EFE94A48E6"
 				item: { count: 1, id: "ironfurnaces:rainbow_plating" }
