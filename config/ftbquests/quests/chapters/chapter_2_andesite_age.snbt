@@ -12,7 +12,6 @@
 	quests: [
 		{
 			dependencies: ["3D79289573C002FA"]
-			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "5DCFD2F28036FEC7"
 			rewards: [{

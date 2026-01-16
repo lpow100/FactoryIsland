@@ -1,5 +1,6 @@
 [
   {"version":1},
+  {"ingredient":{"id":"ftbquests:book"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"createaddition:capacitor"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"createaddition:iron_rod"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"createaddition:tesla_coil"},"type":"item_stack","bookmarkType":"INGREDIENT"},
@@ -98,6 +99,5 @@
   {"ingredient":{"id":"create:blaze_cake_base"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"minecraft:sugar"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"create:cinder_flour"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"create:blaze_cake"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"generatorgalore:ender_generator"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+  {"ingredient":{"id":"create:blaze_cake"},"type":"item_stack","bookmarkType":"INGREDIENT"}
 ]

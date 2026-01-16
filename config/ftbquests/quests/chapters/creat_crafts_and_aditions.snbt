@@ -8,6 +8,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			hide_until_deps_complete: true
 			id: "77F7893A5E05A9C1"
 			rewards: [
 				{

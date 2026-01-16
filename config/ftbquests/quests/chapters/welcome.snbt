@@ -9,6 +9,7 @@
 	id: "04837D18F9D79945"
 	images: [
 		{
+			click: "https://discord.gg/RCP3Yhne6c"
 			height: 1.0d
 			hover: ["Join the discord"]
 			image: "moonlight:textures/gui/sprites/media/discord.png"
@@ -49,7 +50,7 @@
 			]
 			id: "0486E019EAA3D814"
 			rewards: [{
-				count: 12
+				count: 16
 				id: "1C4C41973E0AD919"
 				item: {
 					count: 1
@@ -98,11 +99,10 @@
 			}
 			id: "62C2F929502483B5"
 			rewards: [{
-				count: 4
 				id: "59D58947240112E8"
 				item: {
 					count: 1
-					id: "minecraft:bread"
+					id: "minecraft:crafting_table"
 				}
 				type: "item"
 			}]
@@ -119,9 +119,13 @@
 			}
 			id: "7189765109B910E4"
 			rewards: [{
-				id: "740224C9CA626441"
-				type: "xp_levels"
-				xp_levels: 1
+				count: 16
+				id: "1F1E8ABD8E71CE94"
+				item: {
+					count: 1
+					id: "minecraft:cooked_beef"
+				}
+				type: "item"
 			}]
 			tasks: [{
 				id: "1C9D9A43BC9F75C1"
